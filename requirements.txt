@@ -1,59 +1,141 @@
-# Stasik UAV Airflow Sensing Knowledge Agent - Requirements
-# Core dependencies for knowledge processing and AI capabilities
+# Stasik v2.0 - Advanced UAV Airflow Sensing Knowledge Agent
+# Enhanced requirements with GPT-5, SerpAPI, and knowledge base integration
 
-# Core Python libraries
-numpy>=1.21.0
-pandas>=1.3.0
-scipy>=1.7.0
+# =============================================================================
+# CORE AI & LLM DEPENDENCIES
+# =============================================================================
+openai>=1.100.0              # GPT-5 integration with Responses API
+anthropic>=0.25.0            # Claude integration (optional)
 
-# JSON and data processing
-ujson>=5.1.0
-jsonschema>=4.0.0
+# =============================================================================
+# ENHANCED SEARCH & WEB INTEGRATION
+# =============================================================================
+serpapi>=0.1.5               # Google Scholar & News API
+scholarly>=1.7.11            # Academic paper search
+beautifulsoup4>=4.13.4       # Web content parsing
+requests-html>=0.10.0        # Enhanced web scraping
+google-search-results>=2.4.2 # SerpAPI client
+selenium>=4.32.0             # Browser automation (for scholarly)
 
-# Text processing and NLP
-regex>=2021.8.3
-nltk>=3.6.0
-textblob>=0.17.1
+# =============================================================================
+# WEB & API COMMUNICATION
+# =============================================================================
+requests>=2.32.0             # HTTP requests
+httpx>=0.28.0                # Async HTTP client
+urllib3>=1.26.20             # URL handling
+aiohttp>=3.8.0               # Async web requests
 
-# Web and API interactions
-requests>=2.26.0
-urllib3>=1.26.0
-httpx>=0.24.0
+# =============================================================================
+# DATA PROCESSING & ANALYSIS
+# =============================================================================
+numpy>=1.24.0                # Numerical computing
+pandas>=2.0.0                # Data manipulation
+scipy>=1.10.0                # Scientific computing
+json5>=0.9.0                 # Enhanced JSON parsing
 
-# Data science and analysis
-matplotlib>=3.4.0
-seaborn>=0.11.0
-plotly>=5.3.0
+# =============================================================================
+# TEXT PROCESSING & NLP
+# =============================================================================
+regex>=2023.8.8              # Advanced regex
+nltk>=3.8.0                  # Natural language processing
+textblob>=0.17.1             # Text analysis
+python-dateutil>=2.8.2       # Date parsing
+lxml>=4.9.0                  # XML/HTML parsing
 
-# Configuration and utilities
-python-dotenv>=0.19.0
-pyyaml>=5.4.0
-click>=8.0.0
-rich>=10.0.0
+# =============================================================================
+# CONFIGURATION & UTILITIES
+# =============================================================================
+python-dotenv>=1.0.0         # Environment variables
+pyyaml>=6.0.0                # YAML configuration
+click>=8.1.0                 # CLI interface
+rich>=13.0.0                 # Rich terminal output
+pathlib2>=2.3.7              # Path handling (Python <3.4 compat)
+tqdm>=4.65.0                 # Progress bars
 
-# Logging and monitoring
-loguru>=0.5.3
+# =============================================================================
+# LOGGING & MONITORING
+# =============================================================================
+loguru>=0.7.0                # Advanced logging
+colorama>=0.4.6              # Colored terminal output
 
-# Date and time utilities
-python-dateutil>=2.8.0
+# =============================================================================
+# KNOWLEDGE BASE & DATA STORAGE
+# =============================================================================
+sqlalchemy>=2.0.0            # Database ORM
+jsonschema>=4.17.0           # JSON validation
+pickle5>=0.0.11              # Enhanced pickle (Python <3.8)
 
-# Optional: Database support
-sqlalchemy>=1.4.0
-sqlite3
+# =============================================================================
+# OPTIONAL: MACHINE LEARNING & EMBEDDINGS
+# =============================================================================
+# scikit-learn>=1.3.0        # Machine learning (uncomment if needed)
+# sentence-transformers>=2.2.2  # Semantic embeddings (uncomment if needed)
+# faiss-cpu>=1.7.4           # Vector similarity search (uncomment if needed)
 
-# Optional: Machine learning (if needed)
-scikit-learn>=1.0.0
+# =============================================================================
+# OPTIONAL: ADVANCED TEXT PROCESSING
+# =============================================================================
+# spacy>=3.6.0               # Advanced NLP (uncomment if needed)
+# transformers>=4.30.0       # Hugging Face transformers (uncomment if needed)
 
-# Optional: Advanced text processing
-spacy>=3.4.0
+# =============================================================================
+# VISUALIZATION & REPORTING
+# =============================================================================
+matplotlib>=3.7.0            # Plotting
+seaborn>=0.12.0              # Statistical visualization
+plotly>=5.15.0               # Interactive plots
 
-# Development and testing dependencies (optional)
-# pytest>=6.2.0
-# pytest-cov>=2.12.0
-# black>=21.0.0
-# flake8>=3.9.0
-# mypy>=0.910
+# =============================================================================
+# DEVELOPMENT & TESTING (Optional)
+# =============================================================================
+# pytest>=7.4.0              # Testing framework
+# pytest-cov>=4.1.0          # Coverage reporting
+# pytest-asyncio>=0.21.0     # Async testing
+# black>=23.7.0               # Code formatting
+# flake8>=6.0.0               # Linting
+# mypy>=1.5.0                 # Type checking
+# pre-commit>=3.3.0           # Git hooks
 
-# Documentation (optional)
-# sphinx>=4.0.0
-# sphinx-rtd-theme>=1.0.0
+# =============================================================================
+# DOCUMENTATION (Optional)
+# =============================================================================
+# sphinx>=7.1.0              # Documentation generation
+# sphinx-rtd-theme>=1.3.0    # Read the Docs theme
+# myst-parser>=2.0.0          # Markdown support for Sphinx
+
+# =============================================================================
+# SYSTEM COMPATIBILITY
+# =============================================================================
+# Windows-specific dependencies
+pywin32>=306; sys_platform == "win32"    # Windows API access
+wmi>=1.5.1; sys_platform == "win32"      # Windows Management Interface
+
+# Cross-platform process management
+psutil>=5.9.0                # System and process utilities
+
+# =============================================================================
+# VERSION CONSTRAINTS
+# =============================================================================
+# Python version requirement (specified in setup.py)
+# python_requires = ">=3.8"
+
+# =============================================================================
+# INSTALLATION NOTES
+# =============================================================================
+# Basic installation:
+#   pip install -r requirements.txt
+#
+# Development installation:
+#   pip install -r requirements.txt
+#   pip install -e .
+#
+# Optional features:
+#   - Uncomment ML dependencies for advanced embeddings
+#   - Uncomment NLP dependencies for enhanced text processing
+#   - Uncomment dev dependencies for development work
+#
+# Environment variables needed:
+#   - OPENAI_API_KEY (for GPT-5 integration)
+#   - SERPAPI_KEY (for enhanced search features)
+#   - SEARXNG_URL (for self-hosted search, optional)
+# =============================================================================

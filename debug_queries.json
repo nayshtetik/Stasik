@@ -1,0 +1,414 @@
+[
+  {
+    "timestamp": "2025-08-27T15:33:29.342097",
+    "query": "What is a difference between MEMS airflow sensors and multi-hole probes in terms of denosing and signal processing?",
+    "processing_time": 6.080238,
+    "steps_count": 6,
+    "result_summary": {
+      "status": "success",
+      "confidence": 0.7,
+      "patents_found": 0,
+      "papers_found": 56,
+      "sources_accessed": 2
+    },
+    "algorithm_steps": [
+      {
+        "step_number": 1,
+        "step_name": "QUERY_RECEIVED",
+        "timestamp": "2025-08-27T15:31:01.218769",
+        "elapsed_time": 3.7e-05,
+        "data": {
+          "user_query": "What is a difference between MEMS airflow sensors and multi-hole probes in terms of denosing and signal processing?",
+          "timestamp": "2025-08-27T15:31:01.218732",
+          "tracking_started": true
+        }
+      },
+      {
+        "step_number": 2,
+        "step_name": "TECHNOLOGY_CLASSIFICATION",
+        "timestamp": "2025-08-27T15:31:01.218936",
+        "elapsed_time": 0.000204,
+        "data": {
+          "technology_scores": {
+            "pitot_tubes": 0,
+            "multi_hole_probes": 2,
+            "mems_sensors": 1,
+            "anemometers": 0,
+            "cfd_analysis": 0,
+            "airflow_sensors": 5
+          },
+          "selected_technology": "airflow_sensors",
+          "confidence": 5,
+          "method": "Keyword scoring with frequency weighting"
+        }
+      },
+      {
+        "step_number": 3,
+        "step_name": "INTENT_CLASSIFICATION",
+        "timestamp": "2025-08-27T15:31:01.219049",
+        "elapsed_time": 0.000317,
+        "data": {
+          "intent_scores": {
+            "comparison": 1,
+            "how_to": 1
+          },
+          "selected_intent": "comparison",
+          "method": "Pattern matching with frequency scoring"
+        }
+      },
+      {
+        "step_number": 4,
+        "step_name": "SEARCH_STRATEGY",
+        "timestamp": "2025-08-27T15:31:01.219110",
+        "elapsed_time": 0.000378,
+        "data": {
+          "strategy": {
+            "static_search": true,
+            "dynamic_search": true,
+            "technology_focused": true,
+            "search_scope": "comprehensive"
+          },
+          "reasoning": "Hybrid approach: comprehensive static search + dynamic updates"
+        }
+      },
+      {
+        "step_number": 5,
+        "step_name": "COMPREHENSIVE_ANALYSIS",
+        "timestamp": "2025-08-27T15:31:07.298589",
+        "elapsed_time": 6.079857,
+        "data": {
+          "static_coverage": 2,
+          "dynamic_coverage": 2,
+          "patents_analyzed": 0,
+          "papers_analyzed": 56,
+          "dynamic_results": 0,
+          "confidence": 0.7,
+          "execution_time": 6.0786967277526855
+        }
+      },
+      {
+        "step_number": 6,
+        "step_name": "RESPONSE_GENERATION",
+        "timestamp": "2025-08-27T15:31:07.298970",
+        "elapsed_time": 6.080238,
+        "data": {
+          "content_sources": [
+            "professional",
+            "ardupilot",
+            "papers"
+          ],
+          "total_content_items": 8,
+          "response_complexity": "medium",
+          "synthesis_confidence": 0.7,
+          "recommendations": 2
+        }
+      },
+      {
+        "step_number": 7,
+        "step_name": "GPT5_SCIENTIFIC_SYNTHESIS",
+        "timestamp": "2025-08-27T15:33:29.341652",
+        "elapsed_time": 148.12292,
+        "data": {
+          "question": "What is a difference between MEMS airflow sensors and multi-hole probes in terms of denosing and signal processing?",
+          "synthesis_completed": true,
+          "answer_length": 21518,
+          "scientific_rigor": "maximum"
+        },
+        "llm_usage": {
+          "model_used": "gpt-5",
+          "tokens_used": 8589,
+          "prompt_tokens": 0,
+          "completion_tokens": 0
+        }
+      }
+    ],
+    "performance_metrics": {
+      "total_time": 6.080238,
+      "step_times": {
+        "QUERY_RECEIVED": 3.7e-05,
+        "TECHNOLOGY_CLASSIFICATION": 0.000167,
+        "INTENT_CLASSIFICATION": 0.00011300000000000001,
+        "SEARCH_STRATEGY": 6.100000000000002e-05,
+        "COMPREHENSIVE_ANALYSIS": 6.079478999999999,
+        "RESPONSE_GENERATION": 0.0003809999999999647,
+        "GPT5_SCIENTIFIC_SYNTHESIS": 142.04268199999999
+      },
+      "knowledge_base_efficiency": 9.210165786273498,
+      "search_effectiveness": 1.0
+    }
+  },
+  {
+    "timestamp": "2025-08-27T15:42:07.697513",
+    "query": "if I have the best possible expert in the airflow sensors for UAV what 10 questions would you ask him?",
+    "processing_time": 4.177447,
+    "steps_count": 6,
+    "result_summary": {
+      "status": "success",
+      "confidence": 0.7,
+      "patents_found": 0,
+      "papers_found": 56,
+      "sources_accessed": 2
+    },
+    "algorithm_steps": [
+      {
+        "step_number": 1,
+        "step_name": "QUERY_RECEIVED",
+        "timestamp": "2025-08-27T15:40:24.017246",
+        "elapsed_time": 2.5e-05,
+        "data": {
+          "user_query": "if I have the best possible expert in the airflow sensors for UAV what 10 questions would you ask him?",
+          "timestamp": "2025-08-27T15:40:24.017221",
+          "tracking_started": true
+        }
+      },
+      {
+        "step_number": 2,
+        "step_name": "TECHNOLOGY_CLASSIFICATION",
+        "timestamp": "2025-08-27T15:40:24.017444",
+        "elapsed_time": 0.000223,
+        "data": {
+          "technology_scores": {
+            "pitot_tubes": 0,
+            "multi_hole_probes": 0,
+            "mems_sensors": 0,
+            "anemometers": 0,
+            "cfd_analysis": 0,
+            "airflow_sensors": 5
+          },
+          "selected_technology": "airflow_sensors",
+          "confidence": 5,
+          "method": "Keyword scoring with frequency weighting"
+        }
+      },
+      {
+        "step_number": 3,
+        "step_name": "INTENT_CLASSIFICATION",
+        "timestamp": "2025-08-27T15:40:24.017547",
+        "elapsed_time": 0.000326,
+        "data": {
+          "intent_scores": {},
+          "selected_intent": "general",
+          "method": "Pattern matching with frequency scoring"
+        }
+      },
+      {
+        "step_number": 4,
+        "step_name": "SEARCH_STRATEGY",
+        "timestamp": "2025-08-27T15:40:24.017607",
+        "elapsed_time": 0.000386,
+        "data": {
+          "strategy": {
+            "static_search": true,
+            "dynamic_search": true,
+            "technology_focused": true,
+            "search_scope": "comprehensive"
+          },
+          "reasoning": "Hybrid approach: comprehensive static search + dynamic updates"
+        }
+      },
+      {
+        "step_number": 5,
+        "step_name": "COMPREHENSIVE_ANALYSIS",
+        "timestamp": "2025-08-27T15:40:28.194305",
+        "elapsed_time": 4.177084,
+        "data": {
+          "static_coverage": 2,
+          "dynamic_coverage": 2,
+          "patents_analyzed": 0,
+          "papers_analyzed": 56,
+          "dynamic_results": 0,
+          "confidence": 0.7,
+          "execution_time": 4.1758644580841064
+        }
+      },
+      {
+        "step_number": 6,
+        "step_name": "RESPONSE_GENERATION",
+        "timestamp": "2025-08-27T15:40:28.194668",
+        "elapsed_time": 4.177447,
+        "data": {
+          "content_sources": [
+            "professional",
+            "ardupilot",
+            "papers"
+          ],
+          "total_content_items": 8,
+          "response_complexity": "medium",
+          "synthesis_confidence": 0.7,
+          "recommendations": 2
+        }
+      },
+      {
+        "step_number": 7,
+        "step_name": "GPT5_SCIENTIFIC_SYNTHESIS",
+        "timestamp": "2025-08-27T15:42:07.696820",
+        "elapsed_time": 103.679599,
+        "data": {
+          "question": "if I have the best possible expert in the airflow sensors for UAV what 10 questions would you ask him?",
+          "synthesis_completed": true,
+          "answer_length": 16325,
+          "scientific_rigor": "maximum"
+        },
+        "llm_usage": {
+          "model_used": "gpt-5",
+          "tokens_used": 6074,
+          "prompt_tokens": 0,
+          "completion_tokens": 0
+        }
+      }
+    ],
+    "performance_metrics": {
+      "total_time": 4.177447,
+      "step_times": {
+        "QUERY_RECEIVED": 2.5e-05,
+        "TECHNOLOGY_CLASSIFICATION": 0.000198,
+        "INTENT_CLASSIFICATION": 0.00010300000000000001,
+        "SEARCH_STRATEGY": 5.9999999999999995e-05,
+        "COMPREHENSIVE_ANALYSIS": 4.176698,
+        "RESPONSE_GENERATION": 0.00036300000000011323,
+        "GPT5_SCIENTIFIC_SYNTHESIS": 99.502152
+      },
+      "knowledge_base_efficiency": 13.405316692228531,
+      "search_effectiveness": 1.0
+    }
+  },
+  {
+    "timestamp": "2025-08-27T15:50:12.811207",
+    "query": "We have developed multi-vector airspeed sensor that can measure direction and velocity of airspeed. It is connected via serial interface. Can we in ingest this data in the Ardupilot EKF (ArduCopter/ArduPlane) with current interfaces in the code without changing it (Mavlink messages, CAN messages, internal RTOS messages etc)? So the autopilot could process multivector airspeed inside EKF.",
+    "processing_time": 8.025559,
+    "steps_count": 6,
+    "result_summary": {
+      "status": "success",
+      "confidence": 0.75,
+      "patents_found": 0,
+      "papers_found": 56,
+      "sources_accessed": 2
+    },
+    "algorithm_steps": [
+      {
+        "step_number": 1,
+        "step_name": "QUERY_RECEIVED",
+        "timestamp": "2025-08-27T15:48:09.918207",
+        "elapsed_time": 2.6e-05,
+        "data": {
+          "user_query": "We have developed multi-vector airspeed sensor that can measure direction and velocity of airspeed. It is connected via serial interface. Can we in ingest this data in the Ardupilot EKF (ArduCopter/ArduPlane) with current interfaces in the code without changing it (Mavlink messages, CAN messages, internal RTOS messages etc)? So the autopilot could process multivector airspeed inside EKF.",
+          "timestamp": "2025-08-27T15:48:09.918181",
+          "tracking_started": true
+        }
+      },
+      {
+        "step_number": 2,
+        "step_name": "TECHNOLOGY_CLASSIFICATION",
+        "timestamp": "2025-08-27T15:48:09.918404",
+        "elapsed_time": 0.000223,
+        "data": {
+          "technology_scores": {
+            "pitot_tubes": 0,
+            "multi_hole_probes": 0,
+            "mems_sensors": 0,
+            "anemometers": 0,
+            "cfd_analysis": 0,
+            "airflow_sensors": 5
+          },
+          "selected_technology": "airflow_sensors",
+          "confidence": 5,
+          "method": "Keyword scoring with frequency weighting"
+        }
+      },
+      {
+        "step_number": 3,
+        "step_name": "INTENT_CLASSIFICATION",
+        "timestamp": "2025-08-27T15:48:09.918519",
+        "elapsed_time": 0.000338,
+        "data": {
+          "intent_scores": {
+            "how_to": 1,
+            "latest": 1,
+            "integration": 2
+          },
+          "selected_intent": "integration",
+          "method": "Pattern matching with frequency scoring"
+        }
+      },
+      {
+        "step_number": 4,
+        "step_name": "SEARCH_STRATEGY",
+        "timestamp": "2025-08-27T15:48:09.918580",
+        "elapsed_time": 0.000399,
+        "data": {
+          "strategy": {
+            "static_search": true,
+            "dynamic_search": true,
+            "technology_focused": true,
+            "search_scope": "comprehensive"
+          },
+          "reasoning": "Hybrid approach: comprehensive static search + dynamic updates"
+        }
+      },
+      {
+        "step_number": 5,
+        "step_name": "COMPREHENSIVE_ANALYSIS",
+        "timestamp": "2025-08-27T15:48:17.943309",
+        "elapsed_time": 8.025128,
+        "data": {
+          "static_coverage": 2,
+          "dynamic_coverage": 4,
+          "patents_analyzed": 0,
+          "papers_analyzed": 56,
+          "dynamic_results": 0,
+          "confidence": 0.75,
+          "execution_time": 8.024212837219238
+        }
+      },
+      {
+        "step_number": 6,
+        "step_name": "RESPONSE_GENERATION",
+        "timestamp": "2025-08-27T15:48:17.943740",
+        "elapsed_time": 8.025559,
+        "data": {
+          "content_sources": [
+            "professional",
+            "ardupilot",
+            "papers"
+          ],
+          "total_content_items": 8,
+          "response_complexity": "medium",
+          "synthesis_confidence": 0.75,
+          "recommendations": 2
+        }
+      },
+      {
+        "step_number": 7,
+        "step_name": "GPT5_SCIENTIFIC_SYNTHESIS",
+        "timestamp": "2025-08-27T15:50:12.810833",
+        "elapsed_time": 122.892652,
+        "data": {
+          "question": "We have developed multi-vector airspeed sensor that can measure direction and velocity of airspeed. It is connected via serial interface. Can we in ingest this data in the Ardupilot EKF (ArduCopter/ArduPlane) with current interfaces in the code without changing it (Mavlink messages, CAN messages, internal RTOS messages etc)? So the autopilot could process multivector airspeed inside EKF.",
+          "synthesis_completed": true,
+          "answer_length": 14380,
+          "scientific_rigor": "maximum"
+        },
+        "llm_usage": {
+          "model_used": "gpt-5",
+          "tokens_used": 7360,
+          "prompt_tokens": 0,
+          "completion_tokens": 0
+        }
+      }
+    ],
+    "performance_metrics": {
+      "total_time": 8.025559,
+      "step_times": {
+        "QUERY_RECEIVED": 2.6e-05,
+        "TECHNOLOGY_CLASSIFICATION": 0.000197,
+        "INTENT_CLASSIFICATION": 0.00011499999999999998,
+        "SEARCH_STRATEGY": 6.100000000000002e-05,
+        "COMPREHENSIVE_ANALYSIS": 8.024729,
+        "RESPONSE_GENERATION": 0.00043099999999896,
+        "GPT5_SCIENTIFIC_SYNTHESIS": 114.867093
+      },
+      "knowledge_base_efficiency": 6.977707098035165,
+      "search_effectiveness": 1.0
+    }
+  }
+]

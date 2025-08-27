@@ -1,0 +1,1011 @@
+[
+  {
+    "test_id": 1,
+    "question": "How do pitot tubes work in aircraft?",
+    "technology": "pitot_tubes",
+    "execution_time": 21.003934621810913,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 0,
+      "reasoning_steps": 8,
+      "response_size_kb": 5.0,
+      "confidence": 0.4,
+      "completeness": 0.5714285714285714
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "How do pitot tubes work in aircraft? 2024 2025 latest",
+          "ArduPilot How do pitot tubes work in aircraft? current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 0
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [],
+      "knowledge_depth": "medium",
+      "search_coverage": "static_only"
+    }
+  },
+  {
+    "test_id": 2,
+    "question": "ARSPD_TYPE parameter configuration ArduPilot",
+    "technology": "pitot_tubes",
+    "execution_time": 14.398334264755249,
+    "status": "success",
+    "metrics": {
+      "static_results": 3,
+      "dynamic_results": 3,
+      "reasoning_steps": 10,
+      "response_size_kb": 143.2,
+      "confidence": 0.8,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates",
+          "ArduPilot parameter param_ARSPD_TYPE may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "comprehensive",
+        "queries": [
+          "ARSPD_TYPE parameter configuration ArduPilot ArduPilot latest documentation",
+          "ARSPD_TYPE parameter configuration ArduPilot 2024 2025 UAV implementation",
+          "ARSPD_TYPE parameter configuration ArduPilot forum discussion troubleshooting",
+          "ARSPD_TYPE parameter configuration ArduPilot best practices professional"
+        ],
+        "reason": "Comprehensive search due to significant knowledge gaps"
+      },
+      "static_coverage": 3,
+      "dynamic_coverage": 3
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration",
+        "param_ARSPD_TYPE"
+      ],
+      "dynamic_queries": [
+        "ARSPD_TYPE parameter configuration ArduPilot 2024 2025 UAV implementation",
+        "ARSPD_TYPE parameter configuration ArduPilot forum discussion troubleshooting",
+        "ARSPD_TYPE parameter configuration ArduPilot best practices professional"
+      ],
+      "knowledge_depth": "high",
+      "search_coverage": "comprehensive"
+    }
+  },
+  {
+    "test_id": 3,
+    "question": "Pitot tube blockage troubleshooting UAV",
+    "technology": "pitot_tubes",
+    "execution_time": 1.9241273403167725,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 95.0,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Pitot tube blockage troubleshooting UAV 2024 2025 latest",
+          "ArduPilot Pitot tube blockage troubleshooting UAV current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Pitot tube blockage troubleshooting UAV 2024 2025 latest",
+        "ArduPilot Pitot tube blockage troubleshooting UAV current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 4,
+    "question": "ARSPD_RATIO calibration procedures 2024",
+    "technology": "pitot_tubes",
+    "execution_time": 3.7466251850128174,
+    "status": "success",
+    "metrics": {
+      "static_results": 3,
+      "dynamic_results": 4,
+      "reasoning_steps": 10,
+      "response_size_kb": 171.4,
+      "confidence": 0.8,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates",
+          "ArduPilot parameter param_ARSPD_RATIO may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "comprehensive",
+        "queries": [
+          "ARSPD_RATIO calibration procedures 2024 ArduPilot latest documentation",
+          "ARSPD_RATIO calibration procedures 2024 2024 2025 UAV implementation",
+          "ARSPD_RATIO calibration procedures 2024 forum discussion troubleshooting",
+          "ARSPD_RATIO calibration procedures 2024 best practices professional"
+        ],
+        "reason": "Comprehensive search due to significant knowledge gaps"
+      },
+      "static_coverage": 3,
+      "dynamic_coverage": 4
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration",
+        "param_ARSPD_RATIO"
+      ],
+      "dynamic_queries": [
+        "ARSPD_RATIO calibration procedures 2024 ArduPilot latest documentation",
+        "ARSPD_RATIO calibration procedures 2024 2024 2025 UAV implementation",
+        "ARSPD_RATIO calibration procedures 2024 forum discussion troubleshooting",
+        "ARSPD_RATIO calibration procedures 2024 best practices professional"
+      ],
+      "knowledge_depth": "high",
+      "search_coverage": "comprehensive"
+    }
+  },
+  {
+    "test_id": 5,
+    "question": "Differential pressure sensor types pitot",
+    "technology": "pitot_tubes",
+    "execution_time": 2.1562132835388184,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 87.5,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Differential pressure sensor types pitot 2024 2025 latest",
+          "ArduPilot Differential pressure sensor types pitot current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Differential pressure sensor types pitot 2024 2025 latest",
+        "ArduPilot Differential pressure sensor types pitot current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 6,
+    "question": "Multi-hole probe angle of attack measurement",
+    "technology": "multi_hole_probes",
+    "execution_time": 2.043046236038208,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 91.8,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Multi-hole probe angle of attack measurement 2024 2025 latest",
+          "ArduPilot Multi-hole probe angle of attack measurement current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Multi-hole probe angle of attack measurement 2024 2025 latest",
+        "ArduPilot Multi-hole probe angle of attack measurement current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 7,
+    "question": "5-hole probe calibration procedures",
+    "technology": "multi_hole_probes",
+    "execution_time": 2.119424343109131,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 96.0,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "5-hole probe calibration procedures 2024 2025 latest",
+          "ArduPilot 5-hole probe calibration procedures current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "5-hole probe calibration procedures 2024 2025 latest",
+        "ArduPilot 5-hole probe calibration procedures current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 8,
+    "question": "Multi-hole probe vs pitot tube advantages",
+    "technology": "multi_hole_probes",
+    "execution_time": 2.008195638656616,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 92.2,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Multi-hole probe vs pitot tube advantages 2024 2025 latest",
+          "ArduPilot Multi-hole probe vs pitot tube advantages current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Multi-hole probe vs pitot tube advantages 2024 2025 latest",
+        "ArduPilot Multi-hole probe vs pitot tube advantages current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 9,
+    "question": "ArduPilot multi-hole probe integration",
+    "technology": "multi_hole_probes",
+    "execution_time": 2.6369376182556152,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 87.4,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "ArduPilot multi-hole probe integration 2024 2025 latest",
+          "ArduPilot ArduPilot multi-hole probe integration current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "ArduPilot multi-hole probe integration 2024 2025 latest",
+        "ArduPilot ArduPilot multi-hole probe integration current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 10,
+    "question": "3D flow measurement probe design",
+    "technology": "multi_hole_probes",
+    "execution_time": 2.1864311695098877,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 93.1,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "3D flow measurement probe design 2024 2025 latest",
+          "ArduPilot 3D flow measurement probe design current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "3D flow measurement probe design 2024 2025 latest",
+        "ArduPilot 3D flow measurement probe design current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 11,
+    "question": "MEMS airflow sensors UAV applications",
+    "technology": "mems_sensors",
+    "execution_time": 2.1694302558898926,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 93.1,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "MEMS airflow sensors UAV applications 2024 2025 latest",
+          "ArduPilot MEMS airflow sensors UAV applications current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "MEMS airflow sensors UAV applications 2024 2025 latest",
+        "ArduPilot MEMS airflow sensors UAV applications current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 12,
+    "question": "Silicon-based pressure sensors calibration",
+    "technology": "mems_sensors",
+    "execution_time": 2.2238872051239014,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 88.6,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Silicon-based pressure sensors calibration 2024 2025 latest",
+          "ArduPilot Silicon-based pressure sensors calibration current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Silicon-based pressure sensors calibration 2024 2025 latest",
+        "ArduPilot Silicon-based pressure sensors calibration current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 13,
+    "question": "MEMS vs conventional sensor comparison",
+    "technology": "mems_sensors",
+    "execution_time": 2.1864309310913086,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 91.4,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "MEMS vs conventional sensor comparison 2024 2025 latest",
+          "ArduPilot MEMS vs conventional sensor comparison current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "MEMS vs conventional sensor comparison 2024 2025 latest",
+        "ArduPilot MEMS vs conventional sensor comparison current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 14,
+    "question": "Temperature compensation MEMS sensors",
+    "technology": "mems_sensors",
+    "execution_time": 2.108813762664795,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 92.5,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Temperature compensation MEMS sensors 2024 2025 latest",
+          "ArduPilot Temperature compensation MEMS sensors current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Temperature compensation MEMS sensors 2024 2025 latest",
+        "ArduPilot Temperature compensation MEMS sensors current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 15,
+    "question": "SDP3X sensor ArduPilot integration",
+    "technology": "mems_sensors",
+    "execution_time": 1.9748454093933105,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 85.9,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "SDP3X sensor ArduPilot integration 2024 2025 latest",
+          "ArduPilot SDP3X sensor ArduPilot integration current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "SDP3X sensor ArduPilot integration 2024 2025 latest",
+        "ArduPilot SDP3X sensor ArduPilot integration current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 16,
+    "question": "Wind anemometer UAV integration",
+    "technology": "anemometers",
+    "execution_time": 1.973325252532959,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 93.7,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Wind anemometer UAV integration 2024 2025 latest",
+          "ArduPilot Wind anemometer UAV integration current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Wind anemometer UAV integration 2024 2025 latest",
+        "ArduPilot Wind anemometer UAV integration current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 17,
+    "question": "Sonic anemometer vs mechanical comparison",
+    "technology": "anemometers",
+    "execution_time": 2.2794365882873535,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 97.6,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Sonic anemometer vs mechanical comparison 2024 2025 latest",
+          "ArduPilot Sonic anemometer vs mechanical comparison current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Sonic anemometer vs mechanical comparison 2024 2025 latest",
+        "ArduPilot Sonic anemometer vs mechanical comparison current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 18,
+    "question": "Wind measurement sensor selection",
+    "technology": "anemometers",
+    "execution_time": 2.3902571201324463,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 96.7,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Wind measurement sensor selection 2024 2025 latest",
+          "ArduPilot Wind measurement sensor selection current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Wind measurement sensor selection 2024 2025 latest",
+        "ArduPilot Wind measurement sensor selection current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 19,
+    "question": "Anemometer data fusion ArduPilot",
+    "technology": "anemometers",
+    "execution_time": 2.1982977390289307,
+    "status": "success",
+    "metrics": {
+      "static_results": 3,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 92.9,
+      "confidence": 0.8,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Anemometer data fusion ArduPilot 2024 2025 latest",
+          "ArduPilot Anemometer data fusion ArduPilot current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 3,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration",
+        "ekf_tuning"
+      ],
+      "dynamic_queries": [
+        "Anemometer data fusion ArduPilot 2024 2025 latest",
+        "ArduPilot Anemometer data fusion ArduPilot current version parameters"
+      ],
+      "knowledge_depth": "high",
+      "search_coverage": "targeted"
+    }
+  },
+  {
+    "test_id": 20,
+    "question": "Environmental wind sensing systems",
+    "technology": "anemometers",
+    "execution_time": 4.017863988876343,
+    "status": "success",
+    "metrics": {
+      "static_results": 2,
+      "dynamic_results": 2,
+      "reasoning_steps": 10,
+      "response_size_kb": 92.5,
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0
+    },
+    "rag_analysis": {
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Environmental wind sensing systems 2024 2025 latest",
+          "ArduPilot Environmental wind sensing systems current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "static_coverage": 2,
+      "dynamic_coverage": 2
+    },
+    "content_quality": {
+      "static_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "dynamic_queries": [
+        "Environmental wind sensing systems 2024 2025 latest",
+        "ArduPilot Environmental wind sensing systems current version parameters"
+      ],
+      "knowledge_depth": "medium",
+      "search_coverage": "targeted"
+    }
+  }
+]

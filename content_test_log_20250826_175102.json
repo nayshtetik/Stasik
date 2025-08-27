@@ -1,0 +1,1187 @@
+[
+  {
+    "test_id": 1,
+    "question": "How do pitot tubes measure airspeed?",
+    "technology": "pitot_tubes",
+    "execution_time": 2.667330026626587,
+    "status": "success",
+    "static_content": {
+      "result_count": 2,
+      "knowledge_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "content_samples": {
+        "technology": {
+          "description": "Pressure-based airspeed measurement systems using Bernoulli's principle",
+          "advantages": [
+            "Proven reliability",
+            "Aviation standard"
+          ]
+        },
+        "ardupilot_integration": {
+          "parameters": [
+            "ARSPD_TYPE",
+            "ARSPD_RATIO",
+            "ARSPD_AUTOCAL"
+          ],
+          "integration_points": []
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 2,
+      "search_queries_executed": [
+        "How do pitot tubes measure airspeed? 2024 2025 latest",
+        "ArduPilot How do pitot tubes measure airspeed? current version parameters"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "How do pitot tubes measure airspeed? 2024 2025 latest",
+          "results": [
+            {
+              "title": "Osteopathic medicine: What kind of doctor is a D.O.? - Mayo Clinic",
+              "content": "Nov 29, 2022 · A major difference between D.O.s and M.D.s is that some doctors of osteopathic medicine use manual medicine as part of treatment. Manual medicine can include hands-on …",
+              "url": "https://www.mayoclinic.org/healthy-lifestyle/consumer-health/expert-answers/osteopathic-medicine/faq-20058168"
+            },
+            {
+              "title": "Understanding Pitot Tubes",
+              "content": "12 Nov 2024 — A pitot tube is a device used to measure the airspeed of an aircraft. Named after the French engineer Henri Pitot, this instrument is fundamental in providing ...",
+              "url": "https://mlbflight.com/understanding-pitot-tubes/"
+            }
+          ]
+        },
+        "searxng_1": {
+          "query": "ArduPilot How do pitot tubes measure airspeed? current version parameters",
+          "results": [
+            {
+              "title": "A New Optic Flow&Lidar sensor for Ardupilot/PX4/INAV - RC Groups",
+              "content": "Mar 13, 2021 · Discussion ardupilot default motor order? VTOLsardupilot default motor order? - RC Groups Aircraft - Exotic and Special Interest VTOLs Discussion ardupilot default motor …",
+              "url": "https://www.rcgroups.com/forums/showthread.php"
+            },
+            {
+              "title": "Complete Parameter List — Plane documentation",
+              "content": "This parameter allows you to control whether the order in which the tubes are attached to your pitot tube matters. If you set this to 0 then the first ...",
+              "url": "https://ardupilot.org/plane/docs/parameters.html"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 8,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "How do pitot tubes measure airspeed? 2024 2025 latest",
+          "ArduPilot How do pitot tubes measure airspeed? current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:29.887179",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'targeted', 'queries': ['How do pitot tubes measure airspeed? 2024 2025 latest', 'ArduPilot How do pitot tubes measure airspeed? current version parameters'], 'reason': 'Targeted search to fill specific gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:29.887180",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: targeted",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:32.554317",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 2 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 115336
+  },
+  {
+    "test_id": 2,
+    "question": "ARSPD_TYPE configuration errors ArduPilot 2024",
+    "technology": "pitot_tubes",
+    "execution_time": 4.33920955657959,
+    "status": "success",
+    "static_content": {
+      "result_count": 3,
+      "knowledge_sources": [
+        "technology",
+        "ardupilot_integration",
+        "param_ARSPD_TYPE"
+      ],
+      "content_samples": {
+        "technology": {
+          "description": "Pressure-based airspeed measurement systems using Bernoulli's principle",
+          "advantages": [
+            "Proven reliability",
+            "Aviation standard"
+          ]
+        },
+        "ardupilot_integration": {
+          "parameters": [
+            "ARSPD_TYPE",
+            "ARSPD_RATIO",
+            "ARSPD_AUTOCAL"
+          ],
+          "integration_points": []
+        },
+        "param_ARSPD_TYPE": {
+          "parameter": null,
+          "description": "Airspeed sensor type selection",
+          "values": [
+            "0",
+            "1",
+            "2"
+          ]
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 4,
+      "search_queries_executed": [
+        "ARSPD_TYPE configuration errors ArduPilot 2024 ArduPilot latest documentation",
+        "ARSPD_TYPE configuration errors ArduPilot 2024 2024 2025 UAV implementation",
+        "ARSPD_TYPE configuration errors ArduPilot 2024 forum discussion troubleshooting",
+        "ARSPD_TYPE configuration errors ArduPilot 2024 best practices professional"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "ARSPD_TYPE configuration errors ArduPilot 2024 ArduPilot latest documentation",
+          "results": [
+            {
+              "title": "lacework/test-latest-dockerhub-tag",
+              "content": "test-latest-dockerhub-tag",
+              "url": "https://hub.docker.com/r/lacework/test-latest-dockerhub-tag"
+            },
+            {
+              "title": "mcp/aws-documentation",
+              "content": "Tools to access AWS documentation, search for content, and get recommendations.",
+              "url": "https://hub.docker.com/r/mcp/aws-documentation"
+            }
+          ]
+        },
+        "searxng_1": {
+          "query": "ARSPD_TYPE configuration errors ArduPilot 2024 2024 2025 UAV implementation",
+          "results": [
+            {
+              "title": "dynatrace/dynatrace-configuration-as-code",
+              "content": "A container image for simple use of Dynatrace's Configuration as Code tool Monaco in CI/CD pipelines",
+              "url": "https://hub.docker.com/r/dynatrace/dynatrace-configuration-as-code"
+            },
+            {
+              "title": "intel/pallet-defect-detection-reference-implementation",
+              "content": "",
+              "url": "https://hub.docker.com/r/intel/pallet-defect-detection-reference-implementation"
+            }
+          ]
+        },
+        "searxng_2": {
+          "query": "ARSPD_TYPE configuration errors ArduPilot 2024 forum discussion troubleshooting",
+          "results": [
+            {
+              "title": "Chat GPT 中文版：ChatGPT 国内如何使用？最新 GPT ... - GitHub",
+              "content": "更新日期：2025/07/25 全面体验 ChatGPT 中文版，无需翻墙，即可使用 GPT-4 及中文功能应用 本指南旨在为用户提供全面的 ChatGPT 中文版使用指南，同时整理了国内可用的 ChatGPT …",
+              "url": "https://github.com/china-chatgpt-gpt/ChatGPT-CN"
+            },
+            {
+              "title": "Optimization and Data Science in Industrial Engineering",
+              "content": "The Second International Conference on Optimization and Data Science in Industrial. Engineering (ODSIE 2024) was held online in Istanbul, Turkey on November 7–8 ...",
+              "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-93601-2.pdf"
+            }
+          ]
+        },
+        "searxng_3": {
+          "query": "ARSPD_TYPE configuration errors ArduPilot 2024 best practices professional",
+          "results": [
+            {
+              "title": "dynatrace/dynatrace-configuration-as-code",
+              "content": "A container image for simple use of Dynatrace's Configuration as Code tool Monaco in CI/CD pipelines",
+              "url": "https://hub.docker.com/r/dynatrace/dynatrace-configuration-as-code"
+            },
+            {
+              "title": "eclipsefdn/eclipse-org-errors",
+              "content": "",
+              "url": "https://hub.docker.com/r/eclipsefdn/eclipse-org-errors"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates",
+          "ArduPilot parameter param_ARSPD_TYPE may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "comprehensive",
+        "queries": [
+          "ARSPD_TYPE configuration errors ArduPilot 2024 ArduPilot latest documentation",
+          "ARSPD_TYPE configuration errors ArduPilot 2024 2024 2025 UAV implementation",
+          "ARSPD_TYPE configuration errors ArduPilot 2024 forum discussion troubleshooting",
+          "ARSPD_TYPE configuration errors ArduPilot 2024 best practices professional"
+        ],
+        "reason": "Comprehensive search due to significant knowledge gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:33.556113",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'comprehensive', 'queries': ['ARSPD_TYPE configuration errors ArduPilot 2024 ArduPilot latest documentation', 'ARSPD_TYPE configuration errors ArduPilot 2024 2024 2025 UAV implementation', 'ARSPD_TYPE configuration errors ArduPilot 2024 forum discussion troubleshooting', 'ARSPD_TYPE configuration errors ArduPilot 2024 best practices professional'], 'reason': 'Comprehensive search due to significant knowledge gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:33.556117",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: comprehensive",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:37.894801",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 4 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.8,
+      "completeness": 1.0,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 180221
+  },
+  {
+    "test_id": 3,
+    "question": "Multi-hole probe angle of attack measurement",
+    "technology": "multi_hole_probes",
+    "execution_time": 2.3036699295043945,
+    "status": "success",
+    "static_content": {
+      "result_count": 2,
+      "knowledge_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "content_samples": {
+        "technology": {
+          "description": "Advanced pressure probe systems for comprehensive flow measurement",
+          "advantages": [
+            "Complete flow data",
+            "High accuracy"
+          ]
+        },
+        "ardupilot_integration": {
+          "parameters": [],
+          "integration_points": []
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 2,
+      "search_queries_executed": [
+        "Multi-hole probe angle of attack measurement 2024 2025 latest",
+        "ArduPilot Multi-hole probe angle of attack measurement current version parameters"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "Multi-hole probe angle of attack measurement 2024 2025 latest",
+          "results": [
+            {
+              "title": "Replay attack",
+              "content": "In web security, a replay attack happens when an attacker intercepts a previously-sent message and resends it later to get the same credentials as the original message, potentially with a different pa",
+              "url": "https://developer.mozilla.org/en-US/docs/Glossary/Replay_attack"
+            },
+            {
+              "title": "XRLightProbe: probeSpace property",
+              "content": "The read-only probeSpace property of the XRLightProbe interface returns an XRSpace tracking the position and orientation that the lighting estimations are relative to.",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/XRLightProbe/probeSpace"
+            }
+          ]
+        },
+        "searxng_1": {
+          "query": "ArduPilot Multi-hole probe angle of attack measurement current version parameters",
+          "results": [
+            {
+              "title": "A New Optic Flow&Lidar sensor for Ardupilot/PX4/INAV - RC Groups",
+              "content": "Mar 13, 2021 · Discussion ardupilot default motor order? VTOLsardupilot default motor order? - RC Groups Aircraft - Exotic and Special Interest VTOLs Discussion ardupilot default motor …",
+              "url": "https://www.rcgroups.com/forums/showthread.php"
+            },
+            {
+              "title": "Airspeed indicator or flying only airspeed - Copter 4.1",
+              "content": "29 May 2021 — Measurement of aerodynamic parameters like angle of attack, sideslip, and true airspeed can be performed with pressure based probes; they can be ...",
+              "url": "https://discuss.ardupilot.org/t/airspeed-indicator-or-flying-only-airspeed/71789"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Multi-hole probe angle of attack measurement 2024 2025 latest",
+          "ArduPilot Multi-hole probe angle of attack measurement current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:38.897036",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'targeted', 'queries': ['Multi-hole probe angle of attack measurement 2024 2025 latest', 'ArduPilot Multi-hole probe angle of attack measurement current version parameters'], 'reason': 'Targeted search to fill specific gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:38.897039",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: targeted",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:41.200430",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 2 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 93513
+  },
+  {
+    "test_id": 4,
+    "question": "MEMS sensor calibration issues UAV",
+    "technology": "mems_sensors",
+    "execution_time": 3.1156399250030518,
+    "status": "success",
+    "static_content": {
+      "result_count": 2,
+      "knowledge_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "content_samples": {
+        "technology": {
+          "description": "Miniaturized airflow sensors using microfabrication technology",
+          "advantages": [
+            "Small size",
+            "Low power"
+          ]
+        },
+        "ardupilot_integration": {
+          "parameters": [],
+          "integration_points": []
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 2,
+      "search_queries_executed": [
+        "MEMS sensor calibration issues UAV 2024 2025 latest",
+        "ArduPilot MEMS sensor calibration issues UAV current version parameters"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "MEMS sensor calibration issues UAV 2024 2025 latest",
+          "results": [
+            {
+              "title": "New Construction Homes in Boynton Beach FL - Zillow",
+              "content": "Discover new construction homes or master planned communities in Boynton Beach FL. Check out floor plans, pictures and videos for these new homes, and then get in touch with the home …",
+              "url": "https://www.zillow.com/boynton-beach-fl/new-homes/?msockid=3e27805329426e7a1e92960728886fec"
+            },
+            {
+              "title": "MEMS gyroscope technology in defence systems",
+              "content": "by B Ahi · 2025 — This new model offers a unique approach by combining multiple error factors in a cohesive framework, providing deeper insights into the behavior ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2214914725002557"
+            }
+          ]
+        },
+        "searxng_1": {
+          "query": "ArduPilot MEMS sensor calibration issues UAV current version parameters",
+          "results": [
+            {
+              "title": "A New Optic Flow&Lidar sensor for Ardupilot/PX4/INAV - RC Groups",
+              "content": "Mar 13, 2021 · Discussion ardupilot default motor order? VTOLsardupilot default motor order? - RC Groups Aircraft - Exotic and Special Interest VTOLs Discussion ardupilot default motor …",
+              "url": "https://www.rcgroups.com/forums/showthread.php"
+            },
+            {
+              "title": "Omnibus F4 V5 & V6 Setup - Application Race Quad",
+              "content": "7 Aug 2018 — Simply solder your receiver to J7, on the attached pinout, and arducopter will automatically detect which protocol your receiver is using.",
+              "url": "https://discuss.ardupilot.org/t/omnibus-f4-v5-v6-setup-application-race-quad/31677"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "MEMS sensor calibration issues UAV 2024 2025 latest",
+          "ArduPilot MEMS sensor calibration issues UAV current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:42.202037",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'targeted', 'queries': ['MEMS sensor calibration issues UAV 2024 2025 latest', 'ArduPilot MEMS sensor calibration issues UAV current version parameters'], 'reason': 'Targeted search to fill specific gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:42.202040",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: targeted",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:45.317263",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 2 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 94268
+  },
+  {
+    "test_id": 5,
+    "question": "EKF3 airspeed fusion tuning parameters",
+    "technology": null,
+    "execution_time": 0.00011014938354492188,
+    "status": "success",
+    "static_content": {
+      "result_count": 0,
+      "knowledge_sources": [],
+      "content_samples": {}
+    },
+    "dynamic_content": {
+      "result_count": 0,
+      "search_queries_executed": [],
+      "content_samples": {}
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [],
+        "coverage_gaps": [],
+        "specificity_gaps": [
+          "Limited static knowledge coverage - need broader search"
+        ],
+        "update_needs": []
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:46.319074",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'targeted', 'queries': [], 'reason': 'Targeted search to fill specific gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:46.319075",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: targeted",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:46.319077",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 0 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "dynamic",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "recommendations": [
+        "Consider manual verification for critical applications"
+      ]
+    },
+    "response_size_bytes": 2336
+  },
+  {
+    "test_id": 6,
+    "question": "Wind anemometer integration ArduPilot",
+    "technology": "anemometers",
+    "execution_time": 1.925462007522583,
+    "status": "success",
+    "static_content": {
+      "result_count": 2,
+      "knowledge_sources": [
+        "technology",
+        "ardupilot_integration"
+      ],
+      "content_samples": {
+        "technology": {
+          "description": "Wind speed and direction measurement devices",
+          "advantages": [
+            "Versatile",
+            "Established technology"
+          ]
+        },
+        "ardupilot_integration": {
+          "parameters": [],
+          "integration_points": []
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 2,
+      "search_queries_executed": [
+        "Wind anemometer integration ArduPilot 2024 2025 latest",
+        "ArduPilot Wind anemometer integration ArduPilot current version parameters"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "Wind anemometer integration ArduPilot 2024 2025 latest",
+          "results": [
+            {
+              "title": "Identity provider integration with FedCM",
+              "content": "This article details all the steps an identity provider (IdP) needs to take to integrate with the Federated Credential Management (FedCM) API.",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API/IDP_integration"
+            },
+            {
+              "title": "Federated Credential Management (FedCM) API",
+              "content": "The Federated Credential Management API (or FedCM API) provides a standard mechanism for identity providers (IdPs) to make identity federation services available on the web in a privacy-preserving way",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API"
+            }
+          ]
+        },
+        "searxng_1": {
+          "query": "ArduPilot Wind anemometer integration ArduPilot current version parameters",
+          "results": [
+            {
+              "title": "A New Optic Flow&Lidar sensor for Ardupilot/PX4/INAV - RC Groups",
+              "content": "Mar 13, 2021 · Discussion ardupilot default motor order? VTOLsardupilot default motor order? - RC Groups Aircraft - Exotic and Special Interest VTOLs Discussion ardupilot default motor …",
+              "url": "https://www.rcgroups.com/forums/showthread.php"
+            },
+            {
+              "title": "Complete Parameter List — Sub documentation",
+              "content": "This is a complete list of the parameters which can be set (e.g. via the MAVLink protocol) to control vehicle behaviour. They are stored in persistent storage ...",
+              "url": "https://ardupilot.org/sub/docs/parameters-Sub-stable-V4.1.2.html"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Wind anemometer integration ArduPilot 2024 2025 latest",
+          "ArduPilot Wind anemometer integration ArduPilot current version parameters"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:47.320022",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'targeted', 'queries': ['Wind anemometer integration ArduPilot 2024 2025 latest', 'ArduPilot Wind anemometer integration ArduPilot current version parameters'], 'reason': 'Targeted search to fill specific gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:47.320025",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: targeted",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:49.245140",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 2 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.6000000000000001,
+      "completeness": 1.0,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 98904
+  },
+  {
+    "test_id": 7,
+    "question": "ARSPD_RATIO parameter troubleshooting",
+    "technology": "pitot_tubes",
+    "execution_time": 4.017951965332031,
+    "status": "success",
+    "static_content": {
+      "result_count": 3,
+      "knowledge_sources": [
+        "technology",
+        "ardupilot_integration",
+        "param_ARSPD_RATIO"
+      ],
+      "content_samples": {
+        "technology": {
+          "description": "Pressure-based airspeed measurement systems using Bernoulli's principle",
+          "advantages": [
+            "Proven reliability",
+            "Aviation standard"
+          ]
+        },
+        "ardupilot_integration": {
+          "parameters": [
+            "ARSPD_TYPE",
+            "ARSPD_RATIO",
+            "ARSPD_AUTOCAL"
+          ],
+          "integration_points": []
+        },
+        "param_ARSPD_RATIO": {
+          "parameter": null,
+          "description": "Airspeed calibration ratio",
+          "values": []
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 4,
+      "search_queries_executed": [
+        "ARSPD_RATIO parameter troubleshooting ArduPilot latest documentation",
+        "ARSPD_RATIO parameter troubleshooting 2024 2025 UAV implementation",
+        "ARSPD_RATIO parameter troubleshooting forum discussion troubleshooting",
+        "ARSPD_RATIO parameter troubleshooting best practices professional"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "ARSPD_RATIO parameter troubleshooting ArduPilot latest documentation",
+          "results": [
+            {
+              "title": "lacework/test-latest-dockerhub-tag",
+              "content": "test-latest-dockerhub-tag",
+              "url": "https://hub.docker.com/r/lacework/test-latest-dockerhub-tag"
+            },
+            {
+              "title": "mcp/aws-documentation",
+              "content": "Tools to access AWS documentation, search for content, and get recommendations.",
+              "url": "https://hub.docker.com/r/mcp/aws-documentation"
+            }
+          ]
+        },
+        "searxng_1": {
+          "query": "ARSPD_RATIO parameter troubleshooting 2024 2025 UAV implementation",
+          "results": [
+            {
+              "title": "intel/pallet-defect-detection-reference-implementation",
+              "content": "",
+              "url": "https://hub.docker.com/r/intel/pallet-defect-detection-reference-implementation"
+            },
+            {
+              "title": "openmrs/implementation-id",
+              "content": "[Internal use only] Moved to openmrsinfra/implementation-id",
+              "url": "https://hub.docker.com/r/openmrs/implementation-id"
+            }
+          ]
+        },
+        "searxng_2": {
+          "query": "ARSPD_RATIO parameter troubleshooting forum discussion troubleshooting",
+          "results": [
+            {
+              "title": "Discussion Matek F765 Wing Flight Controller w/Ardupilot ...",
+              "content": "12 Mar 2020 — It would require you to calibrate the airspeed sensor properly though (ARSPD_RATIO) ... I might raise the questions on the forum or FB group as ...",
+              "url": "https://www.rcgroups.com/forums/showthread.php"
+            },
+            {
+              "title": "trivago 是怎么样的一家公司？ 他的盈利模式是怎么样的？ 他为何 …",
+              "content": "Oct 16, 2016 · trivago储存所有酒店每月的调查结果，因此也作为下个月的价格走势概览。 tHPI反映了欧洲在线酒店市场的酒店价格：来自53家不同的在线旅行社的住宿价格，和连锁品牌酒店 …",
+              "url": "https://www.zhihu.com/question/51670030"
+            }
+          ]
+        },
+        "searxng_3": {
+          "query": "ARSPD_RATIO parameter troubleshooting best practices professional",
+          "results": [
+            {
+              "title": "rancher/best-practice-guide",
+              "content": "",
+              "url": "https://hub.docker.com/r/rancher/best-practice-guide"
+            },
+            {
+              "title": "m365pnp/cli-microsoft365",
+              "content": "CLI for Microsoft 365",
+              "url": "https://hub.docker.com/r/m365pnp/cli-microsoft365"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates",
+          "ArduPilot parameter param_ARSPD_RATIO may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "comprehensive",
+        "queries": [
+          "ARSPD_RATIO parameter troubleshooting ArduPilot latest documentation",
+          "ARSPD_RATIO parameter troubleshooting 2024 2025 UAV implementation",
+          "ARSPD_RATIO parameter troubleshooting forum discussion troubleshooting",
+          "ARSPD_RATIO parameter troubleshooting best practices professional"
+        ],
+        "reason": "Comprehensive search due to significant knowledge gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:50.246947",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'comprehensive', 'queries': ['ARSPD_RATIO parameter troubleshooting ArduPilot latest documentation', 'ARSPD_RATIO parameter troubleshooting 2024 2025 UAV implementation', 'ARSPD_RATIO parameter troubleshooting forum discussion troubleshooting', 'ARSPD_RATIO parameter troubleshooting best practices professional'], 'reason': 'Comprehensive search due to significant knowledge gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:50.246950",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: comprehensive",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:54.264555",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 4 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.8,
+      "completeness": 1.0,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 175989
+  },
+  {
+    "test_id": 8,
+    "question": "Synthetic airspeed vs pitot tube comparison",
+    "technology": null,
+    "execution_time": 1.1322274208068848,
+    "status": "success",
+    "static_content": {
+      "result_count": 1,
+      "knowledge_sources": [
+        "pitot_tubes_overview"
+      ],
+      "content_samples": {
+        "pitot_tubes_overview": {
+          "description": "Pressure-based airspeed measurement systems using Bernoulli's principle",
+          "advantages": [
+            "Proven reliability",
+            "Aviation standard"
+          ]
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 1,
+      "search_queries_executed": [
+        "Synthetic airspeed vs pitot tube comparison 2024 2025 latest"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "Synthetic airspeed vs pitot tube comparison 2024 2025 latest",
+          "results": [
+            {
+              "title": "lacework/test-latest-dockerhub-tag",
+              "content": "test-latest-dockerhub-tag",
+              "url": "https://hub.docker.com/r/lacework/test-latest-dockerhub-tag"
+            },
+            {
+              "title": "kasmweb/vs-code",
+              "content": "Visual Studio Code for Kasm Workspaces",
+              "url": "https://hub.docker.com/r/kasmweb/vs-code"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for pitot_tubes_overview"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [
+          "Limited static knowledge coverage - need broader search"
+        ],
+        "update_needs": []
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [
+          "Synthetic airspeed vs pitot tube comparison 2024 2025 latest"
+        ],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:55.266686",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'targeted', 'queries': ['Synthetic airspeed vs pitot tube comparison 2024 2025 latest'], 'reason': 'Targeted search to fill specific gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:55.266689",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: targeted",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:56.398606",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 1 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.30000000000000004,
+      "completeness": 0.6666666666666666,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 49857
+  },
+  {
+    "test_id": 9,
+    "question": "Latest UAV sensor developments 2024",
+    "technology": null,
+    "execution_time": 0.00018835067749023438,
+    "status": "success",
+    "static_content": {
+      "result_count": 0,
+      "knowledge_sources": [],
+      "content_samples": {}
+    },
+    "dynamic_content": {
+      "result_count": 0,
+      "search_queries_executed": [],
+      "content_samples": {}
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [],
+        "coverage_gaps": [
+          "Missing latest information"
+        ],
+        "specificity_gaps": [
+          "Limited static knowledge coverage - need broader search"
+        ],
+        "update_needs": []
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "targeted",
+        "queries": [],
+        "reason": "Targeted search to fill specific gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:57.400287",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'targeted', 'queries': [], 'reason': 'Targeted search to fill specific gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:57.400290",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: targeted",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:57.400293",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 0 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "dynamic",
+      "confidence": 0.0,
+      "completeness": 0.0,
+      "recommendations": [
+        "Consider manual verification for critical applications"
+      ]
+    },
+    "response_size_bytes": 2356
+  },
+  {
+    "test_id": 10,
+    "question": "EK3_ARSP_THR threshold optimization",
+    "technology": "pitot_tubes",
+    "execution_time": 4.15220308303833,
+    "status": "success",
+    "static_content": {
+      "result_count": 3,
+      "knowledge_sources": [
+        "technology",
+        "ardupilot_integration",
+        "param_EK3_ARSP_THR"
+      ],
+      "content_samples": {
+        "technology": {
+          "description": "Pressure-based airspeed measurement systems using Bernoulli's principle",
+          "advantages": [
+            "Proven reliability",
+            "Aviation standard"
+          ]
+        },
+        "ardupilot_integration": {
+          "parameters": [
+            "ARSPD_TYPE",
+            "ARSPD_RATIO",
+            "ARSPD_AUTOCAL"
+          ],
+          "integration_points": []
+        },
+        "param_EK3_ARSP_THR": {
+          "parameter": null,
+          "description": "EKF3 airspeed fusion threshold",
+          "values": []
+        }
+      }
+    },
+    "dynamic_content": {
+      "result_count": 4,
+      "search_queries_executed": [
+        "EK3_ARSP_THR threshold optimization ArduPilot latest documentation",
+        "EK3_ARSP_THR threshold optimization 2024 2025 UAV implementation",
+        "EK3_ARSP_THR threshold optimization forum discussion troubleshooting",
+        "EK3_ARSP_THR threshold optimization best practices professional"
+      ],
+      "content_samples": {
+        "searxng_0": {
+          "query": "EK3_ARSP_THR threshold optimization ArduPilot latest documentation",
+          "results": [
+            {
+              "title": "lacework/test-latest-dockerhub-tag",
+              "content": "test-latest-dockerhub-tag",
+              "url": "https://hub.docker.com/r/lacework/test-latest-dockerhub-tag"
+            },
+            {
+              "title": "mcp/aws-documentation",
+              "content": "Tools to access AWS documentation, search for content, and get recommendations.",
+              "url": "https://hub.docker.com/r/mcp/aws-documentation"
+            }
+          ]
+        },
+        "searxng_1": {
+          "query": "EK3_ARSP_THR threshold optimization 2024 2025 UAV implementation",
+          "results": [
+            {
+              "title": "Annuaire PPF : comment ça marche ? | Dext",
+              "content": "May 7, 2025 · L’annuaire PPF devient concret pour la facturation électronique, avec une mise en production prochaine. Comment s’organiser ? On vous explique",
+              "url": "https://dext.com/fr/ressources/blog-actualite-comptable/single/annuaire-ppf-comment-ca-marche"
+            },
+            {
+              "title": "intel/pallet-defect-detection-reference-implementation",
+              "content": "",
+              "url": "https://hub.docker.com/r/intel/pallet-defect-detection-reference-implementation"
+            }
+          ]
+        },
+        "searxng_2": {
+          "query": "EK3_ARSP_THR threshold optimization forum discussion troubleshooting",
+          "results": [
+            {
+              "title": "treehouses/openedx-forum",
+              "content": "",
+              "url": "https://hub.docker.com/r/treehouses/openedx-forum"
+            },
+            {
+              "title": "edxops/forum",
+              "content": "",
+              "url": "https://hub.docker.com/r/edxops/forum"
+            }
+          ]
+        },
+        "searxng_3": {
+          "query": "EK3_ARSP_THR threshold optimization best practices professional",
+          "results": [
+            {
+              "title": "rancher/best-practice-guide",
+              "content": "",
+              "url": "https://hub.docker.com/r/rancher/best-practice-guide"
+            },
+            {
+              "title": "m365pnp/cli-microsoft365",
+              "content": "CLI for Microsoft 365",
+              "url": "https://hub.docker.com/r/m365pnp/cli-microsoft365"
+            }
+          ]
+        }
+      }
+    },
+    "rag_reasoning": {
+      "total_steps": 10,
+      "gaps_identified": {
+        "temporal_gaps": [
+          "Patent data may need recent updates for technology"
+        ],
+        "coverage_gaps": [],
+        "specificity_gaps": [],
+        "update_needs": [
+          "ArduPilot parameter ardupilot_integration may need version-specific updates",
+          "ArduPilot parameter param_EK3_ARSP_THR may need version-specific updates"
+        ]
+      },
+      "search_strategy": {
+        "use_searxng": true,
+        "search_type": "comprehensive",
+        "queries": [
+          "EK3_ARSP_THR threshold optimization ArduPilot latest documentation",
+          "EK3_ARSP_THR threshold optimization 2024 2025 UAV implementation",
+          "EK3_ARSP_THR threshold optimization forum discussion troubleshooting",
+          "EK3_ARSP_THR threshold optimization best practices professional"
+        ],
+        "reason": "Comprehensive search due to significant knowledge gaps"
+      },
+      "reasoning_sample": [
+        {
+          "timestamp": "2025-08-26T17:50:58.400929",
+          "step_type": "strategy_decision",
+          "description": "SearXNG strategy: {'use_searxng': True, 'search_type': 'comprehensive', 'queries': ['EK3_ARSP_THR threshold optimization ArduPilot latest documentation', 'EK3_ARSP_THR threshold optimization 2024 2025 UAV implementation', 'EK3_ARSP_THR threshold optimization forum discussion troubleshooting', 'EK3_ARSP_THR threshold optimization best practices professional'], 'reason': 'Comprehensive search due to significant knowledge gaps'}",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:50:58.400932",
+          "step_type": "dynamic_search",
+          "description": "Initiating SearXNG search: comprehensive",
+          "data": null
+        },
+        {
+          "timestamp": "2025-08-26T17:51:02.552823",
+          "step_type": "dynamic_complete",
+          "description": "SearXNG returned 4 result sets",
+          "data": null
+        }
+      ]
+    },
+    "synthesis": {
+      "primary_source": "static",
+      "confidence": 0.8,
+      "completeness": 1.0,
+      "recommendations": [
+        "Dynamic results included - information is current"
+      ]
+    },
+    "response_size_bytes": 160095
+  }
+]

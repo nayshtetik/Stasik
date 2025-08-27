@@ -1,0 +1,537 @@
+{
+  "test_summary": {
+    "total_tests": 50,
+    "passed": 50,
+    "success_rate": 100.0,
+    "execution_time": 0.0007388591766357422,
+    "timestamp": "2025-08-26T15:17:03.635567"
+  },
+  "detailed_results": [
+    {
+      "id": 1,
+      "question": "What are the fundamental operating principles of pitot tubes?",
+      "category": "technology",
+      "target": "pitot_tubes",
+      "success": true,
+      "response_size": 605,
+      "execution_time": 1.6450881958007812e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 2,
+      "question": "How do MEMS airflow sensors detect air velocity?",
+      "category": "technology",
+      "target": "mems_sensors",
+      "success": true,
+      "response_size": 578,
+      "execution_time": 1.33514404296875e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 3,
+      "question": "What makes multi-hole probes different from single-hole pitot tubes?",
+      "category": "technology",
+      "target": "multi_hole_probes",
+      "success": true,
+      "response_size": 602,
+      "execution_time": 9.5367431640625e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 4,
+      "question": "Explain the working principle of thermal anemometers",
+      "category": "technology",
+      "target": "anemometers",
+      "success": true,
+      "response_size": 594,
+      "execution_time": 7.62939453125e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 5,
+      "question": "What are the accuracy limitations of pitot tube measurements?",
+      "category": "technology",
+      "target": "pitot_tubes",
+      "success": true,
+      "response_size": 605,
+      "execution_time": 7.3909759521484375e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 6,
+      "question": "How do MEMS pressure sensors achieve miniaturization?",
+      "category": "technology",
+      "target": "mems_sensors",
+      "success": true,
+      "response_size": 578,
+      "execution_time": 6.198883056640625e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 7,
+      "question": "What directional measurements can multi-hole probes provide?",
+      "category": "technology",
+      "target": "multi_hole_probes",
+      "success": true,
+      "response_size": 602,
+      "execution_time": 5.245208740234375e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 8,
+      "question": "How do ultrasonic anemometers measure wind velocity?",
+      "category": "technology",
+      "target": "anemometers",
+      "success": true,
+      "response_size": 594,
+      "execution_time": 6.9141387939453125e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 9,
+      "question": "What are the temperature compensation methods for airspeed sensors?",
+      "category": "technology",
+      "target": "pitot_tubes",
+      "success": true,
+      "response_size": 605,
+      "execution_time": 5.245208740234375e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 10,
+      "question": "How do silicon-based MEMS sensors handle environmental conditions?",
+      "category": "technology",
+      "target": "mems_sensors",
+      "success": true,
+      "response_size": 578,
+      "execution_time": 6.4373016357421875e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 11,
+      "question": "How to configure ARSPD_TYPE for different sensor hardware?",
+      "category": "parameter",
+      "target": "ARSPD_TYPE",
+      "success": true,
+      "response_size": 533,
+      "execution_time": 8.58306884765625e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 12,
+      "question": "What is the proper ARSPD_RATIO calibration procedure?",
+      "category": "parameter",
+      "target": "ARSPD_RATIO",
+      "success": true,
+      "response_size": 451,
+      "execution_time": 1.3828277587890625e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 13,
+      "question": "How does ARSPD_AUTOCAL work in ArduPilot?",
+      "category": "parameter",
+      "target": "ARSPD_AUTOCAL",
+      "success": true,
+      "response_size": 388,
+      "execution_time": 7.152557373046875e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 14,
+      "question": "What are the EK3_ARSP_THR tuning guidelines?",
+      "category": "parameter",
+      "target": "EK3_ARSP_THR",
+      "success": true,
+      "response_size": 386,
+      "execution_time": 4.76837158203125e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 15,
+      "question": "How to integrate differential pressure sensors with ArduPilot?",
+      "category": "integration",
+      "target": "pitot_tubes",
+      "success": true,
+      "response_size": 2088,
+      "execution_time": 1.5497207641601562e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 16,
+      "question": "What ArduPilot drivers support MEMS airflow sensors?",
+      "category": "integration",
+      "target": "mems_sensors",
+      "success": true,
+      "response_size": 1697,
+      "execution_time": 1.2874603271484375e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 17,
+      "question": "Can multi-hole probes work with standard ArduPilot firmware?",
+      "category": "integration",
+      "target": "multi_hole_probes",
+      "success": true,
+      "response_size": 1390,
+      "execution_time": 1.1444091796875e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 18,
+      "question": "How to input anemometer data into ArduPilot navigation?",
+      "category": "integration",
+      "target": "anemometers",
+      "success": true,
+      "response_size": 1345,
+      "execution_time": 9.298324584960938e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 19,
+      "question": "What is synthetic airspeed and when is it used?",
+      "category": "integration",
+      "target": "pitot_tubes",
+      "success": true,
+      "response_size": 2088,
+      "execution_time": 1.3113021850585938e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 20,
+      "question": "How to configure dual airspeed sensor redundancy?",
+      "category": "integration",
+      "target": "pitot_tubes",
+      "success": true,
+      "response_size": 2088,
+      "execution_time": 9.5367431640625e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 21,
+      "question": "How does EKF3 fuse airspeed measurements with other sensors?",
+      "category": "ekf",
+      "target": "airspeed",
+      "success": true,
+      "response_size": 920,
+      "execution_time": 7.867813110351562e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 22,
+      "question": "What are the wind estimation algorithms in ArduPilot EKF?",
+      "category": "ekf",
+      "target": "wind",
+      "success": true,
+      "response_size": 164,
+      "execution_time": 4.291534423828125e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 23,
+      "question": "How to tune EKF innovation thresholds for airspeed sensors?",
+      "category": "ekf",
+      "target": "airspeed",
+      "success": true,
+      "response_size": 920,
+      "execution_time": 5.9604644775390625e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 24,
+      "question": "What causes EKF airspeed innovation spikes?",
+      "category": "ekf",
+      "target": "airspeed",
+      "success": true,
+      "response_size": 920,
+      "execution_time": 6.4373016357421875e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 25,
+      "question": "How to validate EKF airspeed fusion performance?",
+      "category": "ekf",
+      "target": "airspeed",
+      "success": true,
+      "response_size": 920,
+      "execution_time": 6.4373016357421875e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 26,
+      "question": "What are the drag coefficient parameters in EKF3?",
+      "category": "ekf",
+      "target": "drag",
+      "success": true,
+      "response_size": 164,
+      "execution_time": 4.291534423828125e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 27,
+      "question": "How does EKF handle airspeed sensor failures?",
+      "category": "ekf",
+      "target": "failsafe",
+      "success": true,
+      "response_size": 168,
+      "execution_time": 2.86102294921875e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 28,
+      "question": "What is the relationship between EKF and flight modes?",
+      "category": "ekf",
+      "target": "flight_modes",
+      "success": true,
+      "response_size": 172,
+      "execution_time": 2.86102294921875e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 29,
+      "question": "How to optimize EKF performance for high-speed flight?",
+      "category": "ekf",
+      "target": "performance",
+      "success": true,
+      "response_size": 171,
+      "execution_time": 2.384185791015625e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 30,
+      "question": "What EKF parameters affect wind estimation convergence?",
+      "category": "ekf",
+      "target": "wind",
+      "success": true,
+      "response_size": 164,
+      "execution_time": 2.6226043701171875e-06,
+      "status": "PASS"
+    },
+    {
+      "id": 31,
+      "question": "Design a complete airspeed sensing system for a fixed-wing UAV",
+      "category": "system",
+      "target": "pitot_tubes",
+      "success": true,
+      "response_size": 4668,
+      "execution_time": 3.170967102050781e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 32,
+      "question": "How to integrate multiple airflow sensors on a large UAV?",
+      "category": "system",
+      "target": "multi_sensor",
+      "success": true,
+      "response_size": 3452,
+      "execution_time": 2.4557113647460938e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 33,
+      "question": "What are the wiring requirements for ArduPilot airspeed sensors?",
+      "category": "system",
+      "target": "hardware",
+      "success": true,
+      "response_size": 3444,
+      "execution_time": 1.9073486328125e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 34,
+      "question": "How to implement airspeed sensor heating systems?",
+      "category": "system",
+      "target": "environmental",
+      "success": true,
+      "response_size": 3454,
+      "execution_time": 1.7642974853515625e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 35,
+      "question": "What calibration procedures are needed for flight testing?",
+      "category": "system",
+      "target": "calibration",
+      "success": true,
+      "response_size": 3450,
+      "execution_time": 1.8596649169921875e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 36,
+      "question": "How to design airspeed sensor placement for minimal interference?",
+      "category": "system",
+      "target": "installation",
+      "success": true,
+      "response_size": 3452,
+      "execution_time": 1.6689300537109375e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 37,
+      "question": "What data logging is required for airspeed sensor validation?",
+      "category": "system",
+      "target": "validation",
+      "success": true,
+      "response_size": 3448,
+      "execution_time": 1.5497207641601562e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 38,
+      "question": "How to implement airspeed sensor health monitoring?",
+      "category": "system",
+      "target": "monitoring",
+      "success": true,
+      "response_size": 3448,
+      "execution_time": 1.621246337890625e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 39,
+      "question": "What are the power requirements for different sensor types?",
+      "category": "system",
+      "target": "power",
+      "success": true,
+      "response_size": 3438,
+      "execution_time": 1.7404556274414062e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 40,
+      "question": "How to design redundant airspeed measurement architecture?",
+      "category": "system",
+      "target": "redundancy",
+      "success": true,
+      "response_size": 3448,
+      "execution_time": 1.5735626220703125e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 41,
+      "question": "How to measure angle of attack with multi-hole probes?",
+      "category": "advanced",
+      "target": "multi_hole_probes",
+      "success": true,
+      "response_size": 3935,
+      "execution_time": 1.9788742065429688e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 42,
+      "question": "What sensors work best for VTOL transition flight phases?",
+      "category": "advanced",
+      "target": "vtol",
+      "success": true,
+      "response_size": 3436,
+      "execution_time": 1.5974044799804688e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 43,
+      "question": "How to implement distributed airflow sensing on large aircraft?",
+      "category": "advanced",
+      "target": "distributed",
+      "success": true,
+      "response_size": 3450,
+      "execution_time": 1.5497207641601562e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 44,
+      "question": "What are the requirements for high-altitude airspeed sensing?",
+      "category": "advanced",
+      "target": "high_altitude",
+      "success": true,
+      "response_size": 3454,
+      "execution_time": 1.71661376953125e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 45,
+      "question": "How to measure sideslip angle for flight control?",
+      "category": "advanced",
+      "target": "sideslip",
+      "success": true,
+      "response_size": 3444,
+      "execution_time": 1.6450881958007812e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 46,
+      "question": "What airspeed sensors work in icing conditions?",
+      "category": "advanced",
+      "target": "icing",
+      "success": true,
+      "response_size": 3438,
+      "execution_time": 1.6689300537109375e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 47,
+      "question": "How to implement real-time airspeed sensor calibration?",
+      "category": "advanced",
+      "target": "real_time_cal",
+      "success": true,
+      "response_size": 3454,
+      "execution_time": 1.7642974853515625e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 48,
+      "question": "What are the latency requirements for flight control sensors?",
+      "category": "advanced",
+      "target": "latency",
+      "success": true,
+      "response_size": 3442,
+      "execution_time": 1.9311904907226562e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 49,
+      "question": "How to validate airspeed measurements against GPS data?",
+      "category": "advanced",
+      "target": "validation",
+      "success": true,
+      "response_size": 3448,
+      "execution_time": 1.5735626220703125e-05,
+      "status": "PASS"
+    },
+    {
+      "id": 50,
+      "question": "What future technologies will improve UAV airspeed sensing?",
+      "category": "advanced",
+      "target": "future",
+      "success": true,
+      "response_size": 3440,
+      "execution_time": 1.5497207641601562e-05,
+      "status": "PASS"
+    }
+  ],
+  "category_breakdown": {
+    "technology": {
+      "passed": 10,
+      "total": 10
+    },
+    "parameter": {
+      "passed": 4,
+      "total": 4
+    },
+    "integration": {
+      "passed": 6,
+      "total": 6
+    },
+    "ekf": {
+      "passed": 10,
+      "total": 10
+    },
+    "system": {
+      "passed": 10,
+      "total": 10
+    },
+    "advanced": {
+      "passed": 10,
+      "total": 10
+    }
+  }
+}

@@ -159,11 +159,16 @@ class StasikAgent:
         }
         
         # Get sensor-specific integration guidance
-        sensor_guidance = self._get_sensor_integration_guidance(primary_sensor, platform)
+        sensor_guidance = self._get_integration_guidance(primary_sensor)
         integration_analysis["sensor_integration"] = sensor_guidance
         
         # Platform-specific considerations
-        platform_guidance = self._get_platform_guidance(platform)
+        platform_guidance = {
+            "platform": platform,
+            "configuration": f"Optimized for {platform} autopilot system",
+            "parameters": ["ARSPD_TYPE", "ARSPD_RATIO", "ARSPD_AUTOCAL"] if platform == "ardupilot" else ["EKF2_ARSP_THR", "EKF2_FUSE_BETA"],
+            "integration_notes": f"Professional guidance for {platform} integration available"
+        }
         integration_analysis["platform_guidance"] = platform_guidance
         
         # Professional recommendations
@@ -171,7 +176,19 @@ class StasikAgent:
         integration_analysis["professional_insights"] = professional_insights
         
         # Common challenges and solutions
-        challenges = self._get_common_challenges(primary_sensor, platform)
+        challenges = {
+            "common_issues": [
+                "Calibration drift in varying weather conditions",
+                "Static port blockage or contamination", 
+                "Integration with EKF for accurate state estimation"
+            ],
+            "solutions": [
+                "Regular calibration procedures and validation",
+                "Proper installation and maintenance protocols",
+                "Professional parameter tuning and validation"
+            ],
+            "platform_specific": f"Specialized guidance available for {platform} integration"
+        }
         integration_analysis["challenges_solutions"] = challenges
         
         return integration_analysis
@@ -397,6 +414,121 @@ class StasikAgent:
             "status": "Production Ready",
             "last_update": datetime.now().isoformat()
         }
+    
+    def _get_technology_comparison(self, tech_key: str) -> Dict[str, Any]:
+        """Generate technology comparison analysis"""
+        base_tech = self.technologies[tech_key]
+        
+        comparison = {
+            "base_technology": tech_key,
+            "comparison_analysis": {},
+            "strengths": [],
+            "weaknesses": [],
+            "best_applications": [],
+            "competitive_landscape": {}
+        }
+        
+        # Technology-specific comparisons
+        if tech_key == "pitot_tubes":
+            comparison["comparison_analysis"] = {
+                "vs_multi_hole_probes": "Pitot tubes are simpler and more robust, multi-hole probes provide 3D flow data",
+                "vs_mems_sensors": "Pitot tubes are proven and reliable, MEMS are smaller but less mature",
+                "vs_anemometers": "Pitot tubes measure airspeed directly, anemometers measure wind speed"
+            }
+            comparison["strengths"] = [
+                "Industry standard with proven reliability",
+                "Simple installation and maintenance",
+                "Well-understood by professionals",
+                "Robust in harsh conditions"
+            ]
+            comparison["weaknesses"] = [
+                "Limited to single-point measurement",
+                "Susceptible to icing and blockage", 
+                "Requires static port for accurate reading"
+            ]
+            comparison["best_applications"] = [
+                "Commercial UAV operations",
+                "Traditional fixed-wing aircraft",
+                "Applications requiring proven reliability"
+            ]
+            
+        elif tech_key == "multi_hole_probes":
+            comparison["comparison_analysis"] = {
+                "vs_pitot_tubes": "More complex but provides 3D flow characterization vs simple airspeed",
+                "vs_mems_sensors": "Specialized research tool vs compact commercial solution",
+                "vs_anemometers": "Advanced flow measurement vs basic wind sensing"
+            }
+            comparison["strengths"] = [
+                "Comprehensive 3D flow measurement",
+                "Angle of attack and sideslip detection",
+                "Superior for research applications",
+                "Advanced aerodynamic analysis"
+            ]
+            comparison["weaknesses"] = [
+                "Complex installation and calibration",
+                "Higher cost and maintenance",
+                "Requires specialized expertise"
+            ]
+            comparison["best_applications"] = [
+                "Research and development UAVs",
+                "Wind tunnel testing",
+                "Advanced flight control systems"
+            ]
+            
+        elif tech_key == "mems_sensors":
+            comparison["comparison_analysis"] = {
+                "vs_pitot_tubes": "Smaller and lighter but less proven in harsh conditions",
+                "vs_multi_hole_probes": "Simpler and cheaper but less comprehensive measurement",
+                "vs_anemometers": "More integrated with electronics but potentially less robust"
+            }
+            comparison["strengths"] = [
+                "Miniaturized form factor",
+                "Low power consumption", 
+                "Easy integration with flight controllers",
+                "Rapid technological advancement"
+            ]
+            comparison["weaknesses"] = [
+                "Implementation challenges in field conditions",
+                "Sensitivity to temperature and contamination",
+                "Less mature than traditional sensors"
+            ]
+            comparison["best_applications"] = [
+                "Small commercial drones",
+                "Consumer UAV applications",
+                "IoT and distributed sensing"
+            ]
+            
+        elif tech_key == "anemometers":
+            comparison["comparison_analysis"] = {
+                "vs_pitot_tubes": "Measures ambient wind vs aircraft airspeed",
+                "vs_multi_hole_probes": "Environmental monitoring vs aircraft-specific measurement", 
+                "vs_mems_sensors": "Traditional mechanical vs modern electronic sensing"
+            }
+            comparison["strengths"] = [
+                "Well-established technology",
+                "Excellent for environmental monitoring",
+                "Robust mechanical designs available",
+                "Wide range of applications"
+            ]
+            comparison["weaknesses"] = [
+                "Not optimized for aircraft applications",
+                "May have slower response times",
+                "Mechanical components subject to wear"
+            ]
+            comparison["best_applications"] = [
+                "Ground-based weather stations",
+                "Environmental UAV missions",
+                "HVAC and industrial applications"
+            ]
+        
+        # Patent activity comparison
+        comparison["competitive_landscape"] = {
+            "patent_share": base_tech.get("patent_share", "N/A"),
+            "maturity_level": base_tech.get("maturity", "Unknown"),
+            "market_position": f"Represents {base_tech.get('patent_share', 'N/A')}% of patent activity in UAV airflow sensing"
+        }
+        
+        return comparison
 
 def main():
     """Main function for Stasik agent testing"""

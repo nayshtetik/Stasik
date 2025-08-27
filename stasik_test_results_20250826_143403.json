@@ -1,0 +1,1023 @@
+{
+  "test_summary": {
+    "total_tests": 50,
+    "passed": 48,
+    "success_rate": 96.0,
+    "test_duration": "0:00:05.022620",
+    "timestamp": "2025-08-26T14:34:03.728515"
+  },
+  "agent_info": {
+    "agent_name": "Enhanced Stasik",
+    "version": "2.0",
+    "domain": "UAV Airflow Sensing Technologies + ArduPilot Integration",
+    "creation_date": "2025-08-26",
+    "capabilities": {
+      "patent_analysis": true,
+      "research_synthesis": true,
+      "professional_guidance": true,
+      "system_integration": true,
+      "technology_comparison": true,
+      "troubleshooting": true,
+      "standards_compliance": true,
+      "innovation_assessment": true,
+      "ardupilot_integration": true,
+      "parameter_guidance": true,
+      "ekf_tuning": true,
+      "sensor_configuration": true,
+      "flight_testing": true,
+      "troubleshooting_advanced": true
+    },
+    "supported_technologies": [
+      "pitot_tubes",
+      "multi_hole_probes",
+      "anemometers",
+      "mems_sensors"
+    ],
+    "knowledge_sources": [
+      "Google Patents BigQuery (1,100 patents)",
+      "Academic Literature (500 papers)",
+      "Professional Communities (15+ forums)",
+      "Theoretical Physics Framework"
+    ],
+    "specializations": [
+      "UAV airflow sensing technologies",
+      "ArduPilot/PX4 system integration",
+      "Professional engineering practices",
+      "Technology selection and comparison",
+      "System troubleshooting and optimization"
+    ],
+    "status": "Production Ready",
+    "last_update": "2025-08-26T14:34:03.728535",
+    "enhancement": "ArduPilot Integration",
+    "ardupilot_knowledge_loaded": true,
+    "additional_capabilities": {
+      "ardupilot_parameter_guidance": true,
+      "ekf_tuning_assistance": true,
+      "sensor_driver_recommendations": true,
+      "flight_testing_procedures": true,
+      "troubleshooting_diagnostics": true
+    },
+    "ardupilot_knowledge_stats": {
+      "parameters_covered": 7,
+      "integration_mappings": 4,
+      "professional_insights": 5,
+      "knowledge_base_timestamp": "2025-08-26T14:25:40.976061"
+    }
+  },
+  "category_results": {
+    "Technology Overview": {
+      "passed": 4,
+      "total": 4,
+      "success_rate": 100.0
+    },
+    "Technology Comparison": {
+      "passed": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    "Technology Applications": {
+      "passed": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    "Technology Integration": {
+      "passed": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    "ArduPilot Integration": {
+      "passed": 4,
+      "total": 4,
+      "success_rate": 100.0
+    },
+    "ArduPilot Parameters": {
+      "passed": 4,
+      "total": 4,
+      "success_rate": 100.0
+    },
+    "EKF Tuning": {
+      "passed": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    "System Integration": {
+      "passed": 4,
+      "total": 4,
+      "success_rate": 100.0
+    },
+    "Professional Guidance": {
+      "passed": 1,
+      "total": 1,
+      "success_rate": 100.0
+    },
+    "Advanced Technical": {
+      "passed": 4,
+      "total": 4,
+      "success_rate": 100.0
+    },
+    "Troubleshooting": {
+      "passed": 2,
+      "total": 3,
+      "success_rate": 66.66666666666666
+    },
+    "Performance Optimization": {
+      "passed": 3,
+      "total": 3,
+      "success_rate": 100.0
+    },
+    "Specialized Applications": {
+      "passed": 4,
+      "total": 4,
+      "success_rate": 100.0
+    },
+    "Research Applications": {
+      "passed": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    "Commercial Applications": {
+      "passed": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    "Future Technology": {
+      "passed": 2,
+      "total": 2,
+      "success_rate": 100.0
+    },
+    "Edge Cases": {
+      "passed": 2,
+      "total": 3,
+      "success_rate": 66.66666666666666
+    },
+    "Integration Testing": {
+      "passed": 1,
+      "total": 1,
+      "success_rate": 100.0
+    },
+    "Comprehensive System": {
+      "passed": 1,
+      "total": 1,
+      "success_rate": 100.0
+    }
+  },
+  "detailed_results": [
+    {
+      "id": 1,
+      "category": "Technology Overview",
+      "question": "What are the key advantages of pitot tubes for UAV airspeed measurement?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:58.705972",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "description",
+        "advantages",
+        "patent_activity"
+      ],
+      "elements_missing": [],
+      "response_size": 605,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 2,
+      "category": "Technology Overview",
+      "question": "Describe the working principle of MEMS airflow sensors",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:58.806377",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "principle",
+        "description",
+        "professional_status"
+      ],
+      "elements_missing": [],
+      "response_size": 578,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 3,
+      "category": "Technology Overview",
+      "question": "What are multi-hole probes and their applications in UAV systems?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:58.906702",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "description",
+        "applications",
+        "patent_activity"
+      ],
+      "elements_missing": [],
+      "response_size": 602,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 4,
+      "category": "Technology Overview",
+      "question": "Explain anemometer technology for UAV wind measurement",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:59.006897",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "description",
+        "principle",
+        "advantages"
+      ],
+      "elements_missing": [],
+      "response_size": 594,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 5,
+      "category": "Technology Comparison",
+      "question": "Compare pitot tubes vs MEMS sensors for small UAV applications",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:59.107369",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "comparison_analysis",
+        "strengths",
+        "competitive_landscape"
+      ],
+      "elements_missing": [],
+      "response_size": 1107,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 6,
+      "category": "Technology Comparison",
+      "question": "What are the trade-offs between multi-hole probes and traditional pitot tubes?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:59.207529",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "comparison_analysis",
+        "strengths",
+        "weaknesses"
+      ],
+      "elements_missing": [],
+      "response_size": 1034,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 7,
+      "category": "Technology Applications",
+      "question": "What are the best applications for MEMS airflow sensors in UAVs?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:59.307844",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "applications",
+        "suitability"
+      ],
+      "elements_missing": [],
+      "response_size": 456,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 8,
+      "category": "Technology Applications",
+      "question": "Where should anemometers be used in UAV systems?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:59.408465",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "applications",
+        "suitability"
+      ],
+      "elements_missing": [],
+      "response_size": 464,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 9,
+      "category": "Technology Integration",
+      "question": "How do you integrate pitot tubes into UAV flight systems?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:59.508893",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "hardware",
+        "software",
+        "calibration"
+      ],
+      "elements_missing": [],
+      "response_size": 539,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 10,
+      "category": "Technology Integration",
+      "question": "What are the integration challenges for MEMS sensors in UAVs?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:33:59.609400",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "hardware",
+        "software",
+        "maintenance"
+      ],
+      "elements_missing": [],
+      "response_size": 495,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 11,
+      "category": "ArduPilot Integration",
+      "question": "How do you integrate a pitot tube sensor with ArduPilot?",
+      "method": "query_ardupilot_integration",
+      "start_time": "2025-08-26T14:33:59.709712",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_integration",
+        "relevant_parameters"
+      ],
+      "elements_missing": [],
+      "response_size": 2088,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 12,
+      "category": "ArduPilot Integration",
+      "question": "What ArduPilot parameters are needed for MEMS airflow sensors?",
+      "method": "query_ardupilot_integration",
+      "start_time": "2025-08-26T14:33:59.810275",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_integration",
+        "relevant_parameters"
+      ],
+      "elements_missing": [],
+      "response_size": 1697,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 13,
+      "category": "ArduPilot Integration",
+      "question": "Can multi-hole probes work with ArduPilot autopilot systems?",
+      "method": "query_ardupilot_integration",
+      "start_time": "2025-08-26T14:33:59.910869",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_integration",
+        "status"
+      ],
+      "elements_missing": [],
+      "response_size": 1390,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 14,
+      "category": "ArduPilot Integration",
+      "question": "How to integrate anemometers with ArduPilot for wind sensing?",
+      "method": "query_ardupilot_integration",
+      "start_time": "2025-08-26T14:34:00.011181",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_integration",
+        "integration_options"
+      ],
+      "elements_missing": [],
+      "response_size": 1345,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 15,
+      "category": "ArduPilot Parameters",
+      "question": "What is ARSPD_TYPE parameter and how to configure it?",
+      "method": "get_parameter_guidance",
+      "start_time": "2025-08-26T14:34:00.111664",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "parameter_details",
+        "values",
+        "tuning_notes"
+      ],
+      "elements_missing": [],
+      "response_size": 533,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 16,
+      "category": "ArduPilot Parameters",
+      "question": "How do you calibrate ARSPD_RATIO for pitot tube sensors?",
+      "method": "get_parameter_guidance",
+      "start_time": "2025-08-26T14:34:00.212183",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "parameter_details",
+        "calibration_procedure"
+      ],
+      "elements_missing": [],
+      "response_size": 451,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 17,
+      "category": "ArduPilot Parameters",
+      "question": "What does ARSPD_AUTOCAL parameter control in ArduPilot?",
+      "method": "get_parameter_guidance",
+      "start_time": "2025-08-26T14:34:00.312664",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "parameter_details",
+        "values",
+        "tuning_notes"
+      ],
+      "elements_missing": [],
+      "response_size": 388,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 18,
+      "category": "ArduPilot Parameters",
+      "question": "How to configure EK3_ARSP_THR for airspeed fusion?",
+      "method": "get_parameter_guidance",
+      "start_time": "2025-08-26T14:34:00.412921",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "parameter_details",
+        "typical_range"
+      ],
+      "elements_missing": [],
+      "response_size": 386,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 19,
+      "category": "EKF Tuning",
+      "question": "How do you tune EKF parameters for airspeed sensor fusion?",
+      "method": "get_ekf_tuning_guidance",
+      "start_time": "2025-08-26T14:34:00.513162",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "tuning_guidance",
+        "key_parameters",
+        "tuning_sequence"
+      ],
+      "elements_missing": [],
+      "response_size": 920,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 20,
+      "category": "EKF Tuning",
+      "question": "What are the validation steps for EKF airspeed integration?",
+      "method": "get_ekf_tuning_guidance",
+      "start_time": "2025-08-26T14:34:00.613682",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "tuning_guidance",
+        "validation_checks"
+      ],
+      "elements_missing": [],
+      "response_size": 920,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 21,
+      "category": "System Integration",
+      "question": "How to integrate pitot tubes with ArduPilot EKF system?",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:00.714320",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_specifics",
+        "ekf_tuning"
+      ],
+      "elements_missing": [],
+      "response_size": 4668,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 22,
+      "category": "System Integration",
+      "question": "What are the requirements for MEMS sensor integration with PX4?",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:00.814745",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "sensor_integration",
+        "platform_guidance"
+      ],
+      "elements_missing": [],
+      "response_size": 4191,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 23,
+      "category": "System Integration",
+      "question": "How to set up multi-hole probes for advanced UAV control?",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:00.915280",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_specifics",
+        "professional_insights"
+      ],
+      "elements_missing": [],
+      "response_size": 3935,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 24,
+      "category": "System Integration",
+      "question": "What integration approach is needed for anemometer wind data?",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:01.016032",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "sensor_integration",
+        "challenges_solutions"
+      ],
+      "elements_missing": [],
+      "response_size": 3888,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 25,
+      "category": "Professional Guidance",
+      "question": "What are the best practices for airspeed sensor calibration?",
+      "method": "get_professional_guidance",
+      "start_time": "2025-08-26T14:34:01.116696",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "calibration_guidance",
+        "topic",
+        "context"
+      ],
+      "elements_missing": [],
+      "response_size": 1019,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 26,
+      "category": "Advanced Technical",
+      "question": "How do temperature effects impact MEMS airflow sensor accuracy?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:01.217027",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "calibration",
+        "maintenance"
+      ],
+      "elements_missing": [],
+      "response_size": 495,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 27,
+      "category": "Advanced Technical",
+      "question": "What are the Reynolds number considerations for multi-hole probes?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:01.317518",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "principle",
+        "professional_status"
+      ],
+      "elements_missing": [],
+      "response_size": 602,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 28,
+      "category": "Advanced Technical",
+      "question": "How do static port errors affect pitot tube measurements?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:01.417758",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "installation",
+        "calibration"
+      ],
+      "elements_missing": [],
+      "response_size": 539,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 29,
+      "category": "Advanced Technical",
+      "question": "What mounting considerations apply to anemometer installation?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:01.518365",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "installation",
+        "hardware"
+      ],
+      "elements_missing": [],
+      "response_size": 502,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 30,
+      "category": "Troubleshooting",
+      "question": "How to diagnose erratic airspeed readings in ArduPilot?",
+      "method": "get_professional_guidance",
+      "start_time": "2025-08-26T14:34:01.618992",
+      "success": false,
+      "response_status": "unknown",
+      "elements_found": [],
+      "elements_missing": [],
+      "response_size": 0,
+      "execution_time": 2.5272369384765625e-05,
+      "error": "'EnhancedStasikAgent' object has no attribute '_get_troubleshooting_guidance'"
+    },
+    {
+      "id": 31,
+      "category": "Troubleshooting",
+      "question": "What causes airspeed sensor calibration drift?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:01.719478",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "maintenance",
+        "calibration"
+      ],
+      "elements_missing": [],
+      "response_size": 539,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 32,
+      "category": "Troubleshooting",
+      "question": "How to resolve MEMS sensor noise issues in flight?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:01.819908",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "software",
+        "calibration"
+      ],
+      "elements_missing": [],
+      "response_size": 495,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 33,
+      "category": "Performance Optimization",
+      "question": "How to optimize EKF performance with multiple airspeed sensors?",
+      "method": "get_ekf_tuning_guidance",
+      "start_time": "2025-08-26T14:34:01.920283",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "key_parameters",
+        "tuning_sequence"
+      ],
+      "elements_missing": [],
+      "response_size": 920,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 34,
+      "category": "Performance Optimization",
+      "question": "What are the latency considerations for airspeed sensor data?",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:02.020438",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "sensor_integration",
+        "professional_insights"
+      ],
+      "elements_missing": [],
+      "response_size": 4668,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 35,
+      "category": "Performance Optimization",
+      "question": "How to achieve redundancy in airspeed measurement systems?",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:02.120909",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_specifics",
+        "challenges_solutions"
+      ],
+      "elements_missing": [],
+      "response_size": 4668,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 36,
+      "category": "Specialized Applications",
+      "question": "Which sensors work best for VTOL transition phases?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:02.221458",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "applications",
+        "suitability"
+      ],
+      "elements_missing": [],
+      "response_size": 485,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 37,
+      "category": "Specialized Applications",
+      "question": "How to measure sideslip angle in UAV flight control?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:02.322035",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "description",
+        "advantages"
+      ],
+      "elements_missing": [],
+      "response_size": 602,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 38,
+      "category": "Specialized Applications",
+      "question": "What sensors are suitable for high-altitude UAV operations?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:02.422548",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "applications",
+        "suitability"
+      ],
+      "elements_missing": [],
+      "response_size": 449,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 39,
+      "category": "Specialized Applications",
+      "question": "How to implement distributed airflow sensing on large UAVs?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:02.523158",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "applications",
+        "suitability"
+      ],
+      "elements_missing": [],
+      "response_size": 456,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 40,
+      "category": "Research Applications",
+      "question": "What sensors provide the most accurate flow field data?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:02.623656",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "strengths",
+        "best_applications"
+      ],
+      "elements_missing": [],
+      "response_size": 1034,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 41,
+      "category": "Research Applications",
+      "question": "How to validate airspeed sensor performance in flight testing?",
+      "method": "get_professional_guidance",
+      "start_time": "2025-08-26T14:34:02.724224",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "calibration_guidance",
+        "topic"
+      ],
+      "elements_missing": [],
+      "response_size": 1017,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 42,
+      "category": "Commercial Applications",
+      "question": "Which airspeed sensors are best for commercial UAV operations?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:02.824707",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "best_applications",
+        "competitive_landscape"
+      ],
+      "elements_missing": [],
+      "response_size": 1107,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 43,
+      "category": "Commercial Applications",
+      "question": "What are the certification requirements for UAV airspeed sensors?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:02.924895",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "professional_status",
+        "advantages"
+      ],
+      "elements_missing": [],
+      "response_size": 605,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 44,
+      "category": "Future Technology",
+      "question": "What are the emerging trends in UAV airflow sensing?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:03.025370",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "professional_status",
+        "description"
+      ],
+      "elements_missing": [],
+      "response_size": 578,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 45,
+      "category": "Future Technology",
+      "question": "How might AI/ML improve airspeed sensor data processing?",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:03.126179",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "professional_insights",
+        "challenges_solutions"
+      ],
+      "elements_missing": [],
+      "response_size": 4232,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 46,
+      "category": "Edge Cases",
+      "question": "What happens when airspeed sensors fail during flight?",
+      "method": "get_professional_guidance",
+      "start_time": "2025-08-26T14:34:03.226951",
+      "success": false,
+      "response_status": "unknown",
+      "elements_found": [],
+      "elements_missing": [],
+      "response_size": 0,
+      "execution_time": 1.8358230590820312e-05,
+      "error": "'EnhancedStasikAgent' object has no attribute '_get_troubleshooting_guidance'"
+    },
+    {
+      "id": 47,
+      "category": "Edge Cases",
+      "question": "How do icing conditions affect different sensor types?",
+      "method": "query_technology",
+      "start_time": "2025-08-26T14:34:03.327194",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "weaknesses",
+        "comparison_analysis"
+      ],
+      "elements_missing": [],
+      "response_size": 1107,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 48,
+      "category": "Edge Cases",
+      "question": "What are the limitations of synthetic airspeed in ArduPilot?",
+      "method": "query_ardupilot_integration",
+      "start_time": "2025-08-26T14:34:03.427384",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_integration",
+        "common_issues"
+      ],
+      "elements_missing": [],
+      "response_size": 2088,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 49,
+      "category": "Integration Testing",
+      "question": "How to validate airspeed sensor integration with ArduPilot EKF?",
+      "method": "get_ekf_tuning_guidance",
+      "start_time": "2025-08-26T14:34:03.527663",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "validation_checks",
+        "tuning_guidance"
+      ],
+      "elements_missing": [],
+      "response_size": 920,
+      "execution_time": 0.0,
+      "error": null
+    },
+    {
+      "id": 50,
+      "category": "Comprehensive System",
+      "question": "Design a complete airflow sensing system for a research UAV",
+      "method": "analyze_enhanced_system_integration",
+      "start_time": "2025-08-26T14:34:03.627920",
+      "success": true,
+      "response_status": "success",
+      "elements_found": [
+        "ardupilot_specifics",
+        "ekf_tuning",
+        "professional_insights"
+      ],
+      "elements_missing": [],
+      "response_size": 3971,
+      "execution_time": 0.0,
+      "error": null
+    }
+  ]
+}
