@@ -6,8 +6,10 @@ Shows step-by-step reasoning, database queries, and response generation process
 
 import json
 from datetime import datetime
+from typing import Dict, List, Any
 from hybrid_comprehensive_agent import HybridComprehensiveAgent
 from debug_visualizer import AlgorithmVisualizer, DebugQueryLogger
+from unknown_unknown_loop import UnknownUnknownDiscoveryLoop
 try:
     import openai
     from openai import OpenAI
@@ -90,6 +92,19 @@ class DebuggingStasikChat:
         self.gpt5_mode = True  # Default to GPT-5 scientific rigor mode
         self.enhanced_search_mode = True  # Use enhanced search instead of SearXNG
         
+        # Initialize Unknown-Unknown Discovery Loop
+        try:
+            knowledge_base = {
+                'patents': getattr(self.agent, 'patents', []),
+                'papers': getattr(self.agent, 'papers', []),
+                'news': getattr(self.agent, 'news', [])
+            }
+            self.unknown_unknown_loop = UnknownUnknownDiscoveryLoop(knowledge_base)
+            print("[OK] Unknown-Unknown Discovery Loop initialized")
+        except Exception as e:
+            print(f"[WARNING] Could not initialize Unknown-Unknown Discovery Loop: {e}")
+            self.unknown_unknown_loop = None
+        
         print("[OK] Hybrid Comprehensive Agent initialized")
         print("[OK] Algorithm tracker ready") 
         print("[OK] Debugging interface ready")
@@ -98,7 +113,7 @@ class DebuggingStasikChat:
     def display_banner(self):
         """Display debugging chat banner"""
         print("\n" + "="*90)
-        print("STASIK DEBUGGING CHAT - ALGORITHM TRACKING")
+        print("STASIK DEBUGGING CHAT - ALGORITHM TRACKING & IGNORANCE DETECTION")
         print("="*90)
         print("This interface shows the complete answering algorithm step-by-step:")
         print("• Natural language understanding")
@@ -120,6 +135,11 @@ class DebuggingStasikChat:
         print("  'visual' - Show visual algorithm flow for last query")
         print("  'log' - Show query session log")
         print("  'performance' - Show performance analysis")
+        print()
+        print("Ignorance Detection:")
+        print("  'ignorance' or 'unknown-unknown' - Run Unknown-Unknown Discovery Loop")
+        print("  'ignorance <n>' - Run discovery loop with n iterations")
+        print("  'competency' or 'cq' - Show competency assessment")
         print("="*90)
         print()
     
@@ -2734,6 +2754,206 @@ Only respond with the JSON object, no additional text."""
         print()
         print("="*70)
     
+    def run_ignorance_testing(self, iterations: int = 5) -> str:
+        """
+        Execute the Unknown-Unknown Discovery Loop for systematic ignorance detection.
+        
+        Args:
+            iterations: Number of discovery loop iterations to run
+            
+        Returns:
+            Comprehensive ignorance analysis report
+        """
+        if not self.unknown_unknown_loop:
+            return "[ERROR] Unknown-Unknown Discovery Loop not initialized"
+        
+        print("\n" + "="*90)
+        print("EXECUTING UNKNOWN-UNKNOWN DISCOVERY LOOP")
+        print("="*90)
+        print("Initiating systematic ignorance detection using epistemic landscape navigation...")
+        print("This will identify knowledge gaps and unknown-unknowns in UAV airflow sensing domain.")
+        print()
+        
+        try:
+            # Execute discovery loop
+            results = self.unknown_unknown_loop.execute_discovery_loop(iterations=iterations)
+            
+            # Generate comprehensive report
+            report = self.unknown_unknown_loop.generate_ignorance_report(results)
+            
+            # Track the ignorance testing session
+            self.tracker.add_step("IGNORANCE_TESTING_COMPLETED", {
+                "iterations": results['iterations_completed'],
+                "gaps_discovered": len(results['discovered_gaps']),
+                "bifurcations": len(results['bifurcation_points']),
+                "final_entropy": results['convergence_analysis'].get('final_entropy', 0.0),
+                "ignorance_regions": results['ignorance_topology'].get('node_count', 0)
+            })
+            
+            return report
+            
+        except Exception as e:
+            error_msg = f"[ERROR] Unknown-Unknown Discovery Loop failed: {str(e)}"
+            print(error_msg)
+            return error_msg
+    
+    def get_competency_assessment(self) -> str:
+        """Get current competency assessment based on available knowledge"""
+        if not self.unknown_unknown_loop:
+            return "[ERROR] Unknown-Unknown Discovery Loop not initialized"
+        
+        try:
+            competency_report = []
+            competency_report.append("COMPETENCY ASSESSMENT - CURRENT KNOWLEDGE STATE")
+            competency_report.append("="*60)
+            
+            # Assess competency questions
+            answerable_cqs = 0
+            total_cqs = len(self.unknown_unknown_loop.competency_questions)
+            
+            competency_report.append("\nCOMPETENCY QUESTIONS ANALYSIS:")
+            
+            for i, cq in enumerate(self.unknown_unknown_loop.competency_questions):
+                can_answer = self.unknown_unknown_loop._can_answer_competency_question(cq)
+                answerable_cqs += can_answer
+                status = "✓ CAN ANSWER" if can_answer else "✗ CANNOT ANSWER"
+                
+                competency_report.append(f"\n{i+1}. {cq.question}")
+                competency_report.append(f"   Domain: {cq.domain}")
+                competency_report.append(f"   Complexity: {cq.complexity:.1f}")
+                competency_report.append(f"   Status: {status}")
+            
+            competency_score = answerable_cqs / total_cqs if total_cqs > 0 else 0.0
+            
+            competency_report.append(f"\nOVERALL COMPETENCY SCORE: {competency_score:.2f} ({answerable_cqs}/{total_cqs} answerable)")
+            
+            # Knowledge entropy analysis
+            entropy = self.unknown_unknown_loop._compute_knowledge_entropy()
+            competency_report.append(f"KNOWLEDGE ENTROPY: {entropy:.3f}")
+            
+            # Domain coverage
+            coordinates = self.unknown_unknown_loop._compute_knowledge_coordinates()
+            competency_report.append("\nDOMAIN COVERAGE:")
+            for i, domain in enumerate(self.unknown_unknown_loop.uav_domains):
+                if i < len(coordinates):
+                    coverage = coordinates[i]
+                    competency_report.append(f"  {domain}: {coverage:.3f}")
+            
+            competency_report.append("\nANTI-COMPETENCY QUESTIONS (Ignorance Probes):")
+            for i, anti_cq in enumerate(self.unknown_unknown_loop.anti_competency_questions):
+                competency_report.append(f"\n{i+1}. {anti_cq.question}")
+                competency_report.append(f"   Ignorance Type: {anti_cq.ignorance_type}")
+                competency_report.append(f"   Exploration Domain: {anti_cq.domain}")
+            
+            return "\n".join(competency_report)
+            
+        except Exception as e:
+            return f"[ERROR] Competency assessment failed: {str(e)}"
+    
+    def process_query(self, query: str) -> Dict[str, Any]:
+        """
+        Main API method for processing queries (for API compatibility).
+        
+        Args:
+            query: Natural language question about UAV airflow sensing
+            
+        Returns:
+            dict: Complete response with answer, sources, tracking data, and metadata
+        """
+        try:
+            result, tracking = self.process_query_with_tracking(query, debug_mode=False)
+            
+            # Generate final answer
+            if self.gpt5_mode and OPENAI_AVAILABLE:
+                scientific_answer, gpt5_usage = self._generate_scientific_answer_with_gpt5(result, query, debug_mode=False)
+                final_answer = scientific_answer
+                llm_usage = gpt5_usage
+            else:
+                final_answer = self._generate_technical_answer(result, query)
+                llm_usage = {}
+            
+            return {
+                'question': query,
+                'category': result.get('technology', 'Multi-domain'),
+                'final_answer': final_answer,
+                'sources_used': self._format_sources_for_api(result),
+                'algorithm_steps': tracking.get('steps', []),
+                'llm_usage': llm_usage,
+                'confidence_score': result.get('confidence', 0.0),
+                'timestamp': datetime.now().isoformat()
+            }
+            
+        except Exception as e:
+            return {
+                'error': f"Query processing failed: {str(e)}",
+                'timestamp': datetime.now().isoformat()
+            }
+    
+    def _format_sources_for_api(self, result: Dict[str, Any]) -> List[Dict[str, Any]]:
+        """Format sources for API response"""
+        sources = []
+        
+        # Add patent sources
+        if 'patents' in result:
+            for patent in result['patents'][:5]:  # Top 5
+                sources.append({
+                    'type': 'patent',
+                    'title': patent.get('title', ''),
+                    'publication_number': patent.get('publication_number', ''),
+                    'relevance_score': 0.95  # Mock relevance score
+                })
+        
+        # Add paper sources  
+        if 'papers' in result:
+            for paper in result['papers'][:5]:  # Top 5
+                sources.append({
+                    'type': 'paper',
+                    'title': paper.get('title', ''),
+                    'authors': paper.get('authors', ''),
+                    'relevance_score': 0.90  # Mock relevance score
+                })
+        
+        return sources
+    
+    def get_debug_summary(self) -> Dict[str, Any]:
+        """Get comprehensive debugging information from the last query (API method)"""
+        if not self.conversation_log:
+            return {'error': 'No queries processed yet'}
+        
+        last_query = self.conversation_log[-1]
+        tracking = last_query.get('tracking', {})
+        
+        return {
+            'total_steps': tracking.get('total_steps', 0),
+            'total_time': tracking.get('total_time', 0),
+            'steps': tracking.get('steps', []),
+            'llm_usage_summary': self._summarize_llm_usage(tracking),
+            'performance_metrics': self._get_performance_metrics(tracking)
+        }
+    
+    def _summarize_llm_usage(self, tracking: Dict[str, Any]) -> Dict[str, Any]:
+        """Summarize LLM usage from tracking data"""
+        llm_steps = [step for step in tracking.get('steps', []) if 'llm_usage' in step]
+        
+        total_tokens = sum(step['llm_usage'].get('tokens_used', 0) for step in llm_steps)
+        models_used = list(set(step['llm_usage'].get('model_used', 'N/A') for step in llm_steps))
+        
+        return {
+            'total_tokens': total_tokens,
+            'models_used': models_used,
+            'llm_calls': len(llm_steps)
+        }
+    
+    def _get_performance_metrics(self, tracking: Dict[str, Any]) -> Dict[str, Any]:
+        """Extract performance metrics from tracking data"""
+        steps = tracking.get('steps', [])
+        
+        return {
+            'query_analysis_time': sum(step.get('elapsed_time', 0) for step in steps if 'CLASSIFICATION' in step.get('step_name', '')),
+            'knowledge_search_time': sum(step.get('elapsed_time', 0) for step in steps if 'SEARCH' in step.get('step_name', '')),
+            'synthesis_time': sum(step.get('elapsed_time', 0) for step in steps if 'GPT' in step.get('step_name', ''))
+        }
+    
     def run_debugging_chat(self):
         """Run the debugging chat interface"""
         
@@ -2830,6 +3050,25 @@ Only respond with the JSON object, no additional text."""
                         self._show_performance_analysis()
                     else:
                         print("No queries processed yet.")
+                    continue
+                
+                if user_input.lower() == 'ignorance' or user_input.lower() == 'unknown-unknown':
+                    report = self.run_ignorance_testing()
+                    print("\n" + report)
+                    continue
+                
+                if user_input.lower().startswith('ignorance '):
+                    try:
+                        iterations = int(user_input.split()[1])
+                        report = self.run_ignorance_testing(iterations)
+                        print("\n" + report)
+                    except (ValueError, IndexError):
+                        print("[ERROR] Usage: ignorance <iterations> (e.g., 'ignorance 10')")
+                    continue
+                
+                if user_input.lower() == 'competency' or user_input.lower() == 'cq':
+                    assessment = self.get_competency_assessment()
+                    print("\n" + assessment)
                     continue
                 
                 if not user_input:
